@@ -10,6 +10,9 @@ body {
 .pledge-container {
   width: 720px;
   margin: 0 auto;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 #masthead {
@@ -20,6 +23,8 @@ body {
 
 #main {
 	border: 2px solid #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   padding: 0px;  //30px
   font-size: 1.4em;
