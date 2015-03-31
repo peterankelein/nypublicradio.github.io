@@ -3,7 +3,6 @@
 body {
   background: pink;
   font-family: serif;
-  color: orange;
   font-weight: bold;
 }
 
@@ -12,5 +11,4 @@ body {
 form {
   background: green;
   background: white;
-  color: white;
 }
