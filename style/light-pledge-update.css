@@ -111,6 +111,10 @@ p {
   margin-bottom: 1em;
 }
 
+#header {
+  padding: 30px;
+}
+
 #header p {
   color: #666;
 }
