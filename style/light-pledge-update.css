@@ -307,11 +307,11 @@ form select {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
-  -webkit-transition: all 250ms linear;
-  -moz-transition: all 250ms linear;
-  -o-transition: all 250ms linear;
-  -ms-transition: all 250ms linear;
-  transition: all 250ms linear;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
 }
 
 #amount li label {
@@ -324,7 +324,7 @@ form select {
 }
 
 input[type=checkbox],input[type=radio] {
-  display: none;
+  display: inline-block;
 }
  
 /* Disable outline when clicked*/
