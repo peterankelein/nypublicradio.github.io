@@ -275,7 +275,7 @@ form select {
   cursor: pointer;
   display: inline-block;
   padding-left: 0; /*5px */
-  margin: 5px; 
+  margin: 7px; 
   position: relative;
   font-size: .9em;
 }
@@ -349,7 +349,7 @@ input[type=checkbox]+label::before, input[type=radio]+label::before {
   height: 13px;
   line-height: 13px;
   min-width: 13px;
-  margin-right: 1px;
+  margin-right: 4px;
   margin-top: -5px;
 }
 
