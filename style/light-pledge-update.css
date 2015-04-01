@@ -75,7 +75,7 @@ a img {
 
 #addl-person-btn {
   float: right;
-  margin: -40px 10px 0 0; /* -21px 10px 0 0 */
+  margin: -40px 30px 0 0; /* -21px 10px 0 0 */
   font-size: .9em;
 }
 
@@ -525,7 +525,7 @@ li.other span {
 
 #contact-info label {
   display: inline-block;
-  width: 175px;
+  width: 150px; /* 175px */
   text-align: right;
 }
 
@@ -546,7 +546,7 @@ li.other span {
 }
 
 #pay-cc .field label { /* cc input labels */
-  width: 165px;
+  width: 140px; /* 165px */
   text-align: right;
   margin: 0;
 }
