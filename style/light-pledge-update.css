@@ -111,7 +111,7 @@ p {
   margin-bottom: 1em;
 }
 
-#header, #monthly, #premiums, #comments, #listening-now, .listening, .group.mini, .submit-section {
+#header, #monthly, #onetime, #premiums, #comments, #listening-now, .listening, .group.mini, .submit-section {
   padding: 0 30px;
 }
 
@@ -168,6 +168,7 @@ h2.label .level-step {
   border-radius: 0px;
   text-align: center;
   float: left;
+  margin-left: 5px;
   margin-right: 0px; //5px
 }
 
