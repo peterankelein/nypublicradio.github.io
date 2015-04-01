@@ -111,7 +111,7 @@ p {
   margin-bottom: 1em;
 }
 
-#header, #monthly, #premiums, #comments, .listening, .listening-now, .group.mini, .submit-section {
+#header, #monthly, #premiums, #comments, #listening-now, .listening, .group.mini, .submit-section {
   padding: 0 30px;
 }
 
