@@ -28,7 +28,7 @@ body {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  padding: 0px;  //30px
+  padding: 0px;  /* 30px */
   font-size: 1.4em;
   background-color: #fff;
 
@@ -75,7 +75,7 @@ a img {
 
 #addl-person-btn {
   float: right;
-  margin: -21px 10px 0 0;
+  margin: -40px 10px 0 0; /* -21px 10px 0 0 */
   font-size: .9em;
 }
 
@@ -149,7 +149,7 @@ h2 {
 
 h2.label {
   height: 30px;
-  margin-top: 70px; //70px
+  margin-top: 30px; /* 70px */
   line-height: 2.25em;
   background-color: #000;
   -moz-border-radius: 0px;
@@ -171,7 +171,7 @@ h2.label .level-step {
   text-align: center;
   float: left;
   margin-left: 20px;
-  margin-right: 0px; //5px
+  margin-right: 0px; /* 5px */
 }
 
 #confirm h2 {
@@ -319,7 +319,7 @@ form select {
   background-color: #fff;
   cursor: pointer;
   padding: 7px;
-  border-left: 0; //2px solid #eee
+  border-left: 0; /* 2px solid #eee */
   font-weight: bold;
 }
 
