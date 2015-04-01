@@ -303,7 +303,7 @@ form select {
   float: left;
 }
 
-#amount li:hover {
+#amount li:hover, #amount li label:hover,  {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
