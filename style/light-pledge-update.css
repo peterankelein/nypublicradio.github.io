@@ -111,9 +111,8 @@ p {
   margin-bottom: 1em;
 }
 
-#header, #monthly, .group, .submit-section {
-  padding-left: 30px;
-  padding-right: 30px;
+#header, #monthly, #premiums, .group.mini, .submit-section {
+  padding: 0 30px;
 }
 
 #header p {
