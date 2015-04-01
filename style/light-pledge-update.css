@@ -111,7 +111,7 @@ p {
   margin-bottom: 1em;
 }
 
-#header {
+#header, #monthly, .group, .submit-section {
   padding: 30px;
 }
 
