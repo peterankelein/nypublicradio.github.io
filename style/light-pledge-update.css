@@ -21,7 +21,7 @@ body {
   background:rgba(0,0,0,0);
 }
 
-#main {
+#main 
 	border: 1px solid #ccc;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -111,6 +111,10 @@ p {
   margin-bottom: 1em;
 }
 
+#header, #monthly, #comments, .group mini,  {
+  padding: 30px;
+}
+
 #header p {
   color: #666;
 }
@@ -164,7 +168,7 @@ h2.label .level-step {
   border-radius: 0px;
   text-align: center;
   float: left;
-  margin-right: 5px;
+  margin-right: 0px;
 }
 
 #confirm h2 {
