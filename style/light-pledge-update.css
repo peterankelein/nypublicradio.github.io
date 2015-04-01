@@ -200,13 +200,13 @@ form .field label {
 input[type=text] {
   padding: 8px;
   border: 1px solid #cecece;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
   font-size: 1.2em;
   margin: 4px;
-  height: 22px;
-  width: 200px;
+  height: 50px;
+  width: 380px;
   font-family: courier, serif;
 }
 
@@ -335,7 +335,7 @@ input[type=checkbox]:checked,input[type=radio]:checked,input[type=checkbox]:focu
 }
 
 
-input[type=checkbox]+label::before,input[type=radio]+label::before {
+input[type=checkbox]+label::before, input[type=radio]+label::before {
   font-family: fontAwesome;
   font-weight: normal;
   font-size: 11px;
