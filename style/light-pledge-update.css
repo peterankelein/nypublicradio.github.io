@@ -325,7 +325,9 @@ form select {
 
 
 
-#monthly input[type=radio] {
+
+input[type=radio].group,
+input[type=checkbox].group {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -336,24 +338,8 @@ form select {
     width: 1px;
 }
     
-
-
-
-
-input[type=radio],
-input[type=checkbox] {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-    
-input[type=radio] ~ label:before,
-input[type=checkbox] ~ label:before {
+input[type=radio].group ~ label:before,
+input[type=checkbox].group ~ label:before {
     font-family: FontAwesome;
     display: inline-block;
     content: "\f1db";
@@ -363,21 +349,21 @@ input[type=checkbox] ~ label:before {
     width: 1.4em;
 }
 
-input[type=radio]:checked ~ label:before,
-input[type=checkbox]:checked ~ label:before  {
+input[type=radio].group:checked ~ label:before,
+input[type=checkbox].group:checked ~ label:before  {
     content: "\f058";
     font-size: 1.2em;
     color: #128cf4;
     letter-spacing: 5px;
 }
-input[type=checkbox] ~ label:before {        
+input[type=checkbox].group ~ label:before {        
     content: "\f096";
 }
-input[type=checkbox]:checked ~ label:before {
+input[type=checkbox].group:checked ~ label:before {
     content: "\f046";        
     color: #128cf4;
 }
-input[type=radio]:focus ~ label:before,input[type=checkbox]:focus ~ label:before {                
+input[type=radio].group:focus ~ label:before,input[type=checkbox].group:focus ~ label:before {                
     color: #128cf4;
 }
 
