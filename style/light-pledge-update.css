@@ -339,11 +339,6 @@ form select {
   transition: all 150ms linear;
 }
 
-#amount li:active, #amount li label:active  {
-  background-color: #128cf4;
-  border-color: #128cf4;
-  color: #fff;
-}
 
 #amount li:last-child:hover, #amount li:last-child label:hover  {
   background-color: white;
@@ -407,6 +402,74 @@ li.other span {
   font-size: .9em;
   color: #000; /* #999; */
 }
+
+
+
+
+#premiums input[type=radio],
+input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+    
+#premiums input[type=radio] ~ label:before,
+#premiums input[type=checkbox] ~ label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #999;
+    width: 1.4em;
+}
+
+#premiums input[type=radio]:checked ~ label:before,
+#premiums input[type=checkbox]:checked ~ label:before  {
+    content: "\f058";
+    font-size: 1.2em;
+    color: #128cf4;
+    letter-spacing: 5px;
+}
+#premiums input[type=checkbox] ~ label:before {        
+    content: "\f096";
+}
+#premiums input[type=checkbox]:checked ~ label:before {
+    content: "\f046";        
+    color: #128cf4;
+}
+#premiums input[type=radio]:focus ~ label:before,
+#premiums input[type=checkbox]:focus ~ label:before,
+{                
+    color: #128cf4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #featured-gifts {
   position: relative; /* IE7 */
