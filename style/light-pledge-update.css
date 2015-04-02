@@ -339,6 +339,12 @@ form select {
   transition: all 150ms linear;
 }
 
+#amount li:active, #amount li label:active  {
+  background-color: #128cf4;
+  border-color: #128cf4;
+  color: #fff;
+}
+
 #amount li:last-child:hover, #amount li:last-child label:hover  {
   background-color: white;
   border-color: #ccc;
