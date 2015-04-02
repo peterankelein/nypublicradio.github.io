@@ -325,73 +325,45 @@ form select {
 
 
 
-input[type=checkbox],input[type=radio] {
-  position: absolute;
-  left: -9999px;
+input[type=radio],
+input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
- 
-/* Disable outline when clicked*/
-input[type=checkbox]:checked,input[type=radio]:checked,input[type=checkbox]:focus,input[type=radio]:focus {
-  outline: none !important;
-}
-
-
-input[type=checkbox]+label::before, input[type=radio]+label::before {
-  font-family: fontAwesome;
-  font-weight: normal;
-  font-size: 11px;
-  color: #2091cf;
-  content: "\a0";
-  background-color: #FAFAFA;
-  border: 1px solid #CCC;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 0;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  height: 13px;
-  line-height: 13px;
-  min-width: 13px;
-  margin-right: 4px;
-  margin-top: -5px;
+    
+input[type=radio] ~ label:before,
+input[type=checkbox] ~ label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #999;
+    width: 1.4em;
 }
 
-/* Checked state styles */
-input[type=checkbox]:checked+label::before,input[type=radio]:checked+label::before {
-  display: inline-block;
-  content: '\f00c';
-  background-color: #F5F8FC;
-  border-color: #adb8c0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05),inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+input[type=radio]:checked ~ label:before,
+input[type=checkbox]:checked ~ label:before  {
+    content: "\f058";
+    font-size: 1.2em;
+    color: #128cf4;
+    letter-spacing: 5px;
 }
- 
-/* Hover state styles */
-input[type=checkbox]:hover+label::before,input[type=radio]:hover+label::before,input[type=checkbox]+label:hover::before,input[type=radio]+label:hover::before {
-  border-color: #1c7aad;
+input[type=checkbox] ~ label:before {        
+    content: "\f096";
 }
- 
-/* Shadow when checked or Active */
-input[type=checkbox]:active+label::before,input[type=radio]:active+label::before,input[type=checkbox]:checked:active+label::before,input[type=radio]:checked:active+label::before {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+input[type=checkbox]:checked ~ label:before {
+    content: "\f046";        
+    color: #128cf4;
 }
- 
-/* Disabled state styles */
-input[type=checkbox]:disabled+label::before,input[type=radio]:disabled+label::before,input[type=checkbox][disabled]+label::before,input[type=radio][disabled]+label::before,input[type=checkbox].disabled+label::before,input[type=radio].disabled+label::before {
-  background-color: #DDD !important;
-  border-color: #CCC !important;
-  box-shadow: none !important;
-  color: #BBB;
-}
- 
-/* Styles for Radio button */
-input[type=radio]+label::before {
-  border-radius: 32px;
-  font-family: Arial,Helvetica,sans-serif;
-  font-size: 36px;
-}
- 
-input[type=radio]:checked+label::before {
-  content: "\2022";
+input[type=radio]:focus ~ label:before,input[type=checkbox]:focus ~ label:before {                
+    color: #128cf4;
 }
 
 
