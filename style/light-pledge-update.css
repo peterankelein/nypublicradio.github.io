@@ -372,7 +372,7 @@ form select {
 
 
 li.other input.numeric {
-  width: 90px;
+  width: 115px;
   height: auto;
   margin: 0 0 0 -4px;
   padding: 6px 4px 7px 0;
@@ -394,7 +394,7 @@ li.other div {
 
 li.other span {
   position: absolute;
-  bottom: -35px; /*-20px; */
+  bottom: -25px; /*-20px; */
   right: 0;
   font-size: .9em;
   color: #000; /* #999; */
