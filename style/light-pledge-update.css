@@ -391,8 +391,7 @@ input[type=radio]+label::before {
 }
  
 input[type=radio]:checked+label::before {
-  content: "\f046";
-  color: #128cf4;
+  content: "\2022";
 }
 
 
