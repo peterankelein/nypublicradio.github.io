@@ -87,7 +87,7 @@ a img {
 .more {
   color: #128cf4;
   font-size: 1em;
-  font-weight: 500;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
 .more:after  {
@@ -145,7 +145,7 @@ p {
 h1 {
   font-size: 1.6em;
   margin: 10px 0;
-  font-weight: 500;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
 #masthead h1.logo {
@@ -166,7 +166,7 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  font-weight: 500;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   margin: 10px 0;
 }
 
@@ -206,7 +206,7 @@ h2.label .level-step {
 h3 {
   color: #000; /* #4e4e4e; */
   font-size: 1.6em;
-  font-weight: 500;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   margin: 20px 0 10px;
 }
 
@@ -358,7 +358,7 @@ form select {
   cursor: pointer;
   padding: 10px;
   border-left: 0; /* 2px solid #eee */
-  font-weight: 500;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
 
@@ -384,7 +384,6 @@ li.other input.numeric {
   -webkit-border-radius: 0;
   border-radius: 0;
   font-family:'Gotham-Medium', Arial, Helvetica, sans-serif;
-  font-weight: 500;
 }
 
 li.other input.numeric:focus {
