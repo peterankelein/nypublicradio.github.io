@@ -122,7 +122,8 @@ p {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.6em;
+  font-weight: 500;
   margin: 10px 0;
 }
 
@@ -157,7 +158,7 @@ h2.label {
   -webkit-border-radius: 0px;
   border-radius: 0px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 1.2em;
 }
 
@@ -281,6 +282,7 @@ form select {
   margin: 7px 12px 7px 0; 
   position: relative;
   font-size: 1.2em;
+  font-weight: 500;
 }
 
 #featured-gifts li {
@@ -295,6 +297,7 @@ form select {
   margin: 5px;
   position: relative;
   font-size: 1.2em;
+  font-weight: 500;
 }
 
 
@@ -358,7 +361,7 @@ form select {
 
 
 li.other input.numeric {
-  width: 72px;
+  width: 90px;
   height: auto;
   margin: 0 0 0 -4px;
   padding: 6px 4px 7px 0;
@@ -366,7 +369,6 @@ li.other input.numeric {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  font: bold 14px arial, sans-serif;
 }
 
 li.other input.numeric:focus {
