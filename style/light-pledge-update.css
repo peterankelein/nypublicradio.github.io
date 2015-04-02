@@ -326,8 +326,7 @@ form select {
 
 
 input[type=checkbox],input[type=radio] {
-  position: absolute;
-  left: -9999px;
+  display:none;
 }
  
 /* Disable outline when clicked*/
