@@ -324,10 +324,7 @@ form select {
 }
 
 
-
-
-input[type=radio],
-input[type=checkbox] {
+#amount input[type=radio] {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -337,35 +334,8 @@ input[type=checkbox] {
     position: absolute;
     width: 1px;
 }
-    
-input[type=radio] ~ label:before,
-input[type=checkbox] ~ label:before {
-    font-family: FontAwesome;
-    display: inline-block;
-    content: "\f1db";
-    letter-spacing: 10px;
-    font-size: 1.2em;
-    color: #999;
-    width: 1.4em;
-}
 
-input[type=radio]:checked ~ label:before,
-input[type=checkbox]:checked ~ label:before  {
-    content: "\f058";
-    font-size: 1.2em;
-    color: #128cf4;
-    letter-spacing: 5px;
-}
-input[type=checkbox] ~ label:before {        
-    content: "\f096";
-}
-input[type=checkbox]:checked ~ label:before {
-    content: "\f046";        
-    color: #128cf4;
-}
-input[type=radio]:focus ~ label:before,input[type=checkbox]:focus ~ label:before {                
-    color: #128cf4;
-}
+
 
 
 
