@@ -354,7 +354,7 @@ input[type=radio]:checked ~ label:before,
 input[type=checkbox]:checked ~ label:before  {
     content: "\f058";
     font-size: 1.2em;
-    color: darkgreen;
+    color: #128cf4;
     letter-spacing: 5px;
 }
 input[type=checkbox] ~ label:before {        
@@ -362,12 +362,10 @@ input[type=checkbox] ~ label:before {
 }
 input[type=checkbox]:checked ~ label:before {
     content: "\f046";        
-    color: darkgreen;
+    color: #128cf4;
 }
 input[type=radio]:focus ~ label:before,
 input[type=checkbox]:focus ~ label:before,
-input[type=radio]:focus ~ label,
-input[type=checkbox]:focus ~ label
 {                
     color: #128cf4;
 }
