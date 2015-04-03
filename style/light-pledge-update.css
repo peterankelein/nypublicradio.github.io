@@ -26,6 +26,10 @@ body {
   background-color: #f0f0f0;
 }
 
+i, em {
+  font-family: 'Gotham-Book-Italic', Arial, Helvetica, sans-serif 
+}
+
 .pledge-container {
   width: 720px;
   margin: 0 auto;
@@ -232,7 +236,7 @@ input[type=text] {
   margin: 4px;
   height: 38px;
   width: 380px;
-  font-family: courier, serif;
+  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
 }
 
 input[type=text]:focus {
@@ -241,7 +245,7 @@ input[type=text]:focus {
 }
 
 textarea {
-  font-family: courier, serif;
+  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
 }
 
 form select {
