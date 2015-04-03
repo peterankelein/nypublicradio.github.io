@@ -250,7 +250,7 @@ textarea {
   color: 
 }
 
-textarea#ID_comments:focus {
+textarea#id_comments:focus {
   font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   color: #000;
