@@ -223,7 +223,7 @@ h4 {
 }
 
 form .field label {
-  font-family: 'Gotham-Book-medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
 input[type=text] {
@@ -237,7 +237,7 @@ input[type=text] {
   margin: 4px;
   height: 38px;
   width: 380px;
-  font-family: 'Gotham-Book-medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
 input[type=text]:focus {
