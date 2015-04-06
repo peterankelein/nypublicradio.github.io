@@ -226,7 +226,7 @@ form .field label {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
-input[type=text] {
+#payment input[type=text] {
   padding: 8px;
   border: 1px solid #eee;; /* border: 1px solid #cecece; */
   background-color: #eee;
@@ -240,7 +240,7 @@ input[type=text] {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
-input[type=text]:focus {
+#payment input[type=text]:focus {
   background-color: #eee;
   border: 1px solid #128cf4; 
 }
