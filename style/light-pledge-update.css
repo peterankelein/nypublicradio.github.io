@@ -260,45 +260,13 @@ form select {
   width: 220px;
 }
 
-
-
-#premium-empty input[type=radio] {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-    
-#premium-empty input[type=radio] ~ label:before
-{
-    font-family: FontAwesome;
-    display: inline-block;
-    content: "\f1db";
-    letter-spacing: 10px;
-    font-size: 1.2em;
-    color: #999;
-    width: 1.4em;
+.group {
+  margin: 30px 0;
 }
 
-#premium-empty input[type=radio]:checked ~ label:before {
-    content: "\f058";
-    font-size: 1.2em;
-    color: #128cf4;
-    letter-spacing: 5px;
+.group.mini {
+  margin: 20px 0 0;
 }
-
-
-
-
-
-
-
-
-
 
 .group.mini input[type=checkbox] {
     border: 0;
@@ -338,13 +306,6 @@ form select {
     color: #128cf4;
 }
 
-.group {
-  margin: 30px 0;
-}
-
-.group.mini {
-  margin: 20px 0 0;
-}
 
 /* form pg 1 */
 
@@ -452,6 +413,9 @@ form select {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
   -o-transition: all 150ms linear;
@@ -463,6 +427,9 @@ form select {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #amount input[type=radio] {
