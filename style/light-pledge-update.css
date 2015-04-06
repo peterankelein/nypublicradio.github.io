@@ -271,8 +271,8 @@ form select {
     width: 1px;
 }
     
-#id_enewsletter_signup input[type=radio] ~ label:before,
-#id_enewsletter_signup input[type=checkbox] ~ label:before
+.group.mini input[type=radio] ~ label:before,
+.group.mini input[type=checkbox] ~ label:before
 
 {
     font-family: FontAwesome;
@@ -284,19 +284,19 @@ form select {
     width: 1.4em;
 }
 
-#id_enewsletter_signup input[type=radio]:checked ~ label:before,
-#id_enewsletter_signup input[type=checkbox]:checked ~ label:before {
+.group.mini input[type=radio]:checked ~ label:before,
+.group.mini input[type=checkbox]:checked ~ label:before {
     content: "\f058";
     font-size: 1.2em;
     color: #128cf4;
     letter-spacing: 5px;
 }
 
-#id_enewsletter_signup input[type=checkbox] ~ label:before
+.group.mini input[type=checkbox] ~ label:before
 {        
     content: "\f1db";
 }
-#id_enewsletter_signup input[type=checkbox]:checked ~ label:before
+.group.mini input[type=checkbox]:checked ~ label:before
 {
     content: \f058";        
     color: #128cf4;
