@@ -242,7 +242,7 @@ input[type=text] {
 
 input[type=text]:focus {
   background-color: #eee;
-  border-color: #128cf4;
+  border: 1px solid #128cf4; 
 }
 
 textarea {
