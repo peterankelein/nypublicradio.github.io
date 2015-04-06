@@ -297,7 +297,8 @@ form select {
   padding-top: 15px;
 }
 
-#amount li {
+#amount li,
+#listening-now li {
   border: 1px solid #ccc; /* 2px solid #e9e9e9; */
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
