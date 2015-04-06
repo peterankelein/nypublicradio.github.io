@@ -299,7 +299,7 @@ form select {
 }
 #id_enewsletter_signup input[type=checkbox]:checked ~ label:before,
 #id_upsell input[type=checkbox]:checked ~ label:before {
-    content: \f058";        
+    content: "\f058";        
     color: #128cf4;
 }
 
