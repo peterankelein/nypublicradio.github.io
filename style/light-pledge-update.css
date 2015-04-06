@@ -259,11 +259,22 @@ form select {
 
 .field.state select,
 .field.country select {
+  border: 1px solid #eee;
   background-color: #eee;
   width: 400px;
   height: 55px;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-size: 1em;
+}
+
+.field.state select:hover,
+.field.country select:hover {
+  border: 1px solid #ccc; 
+}
+
+.field.state select:focus,
+.field.country select:focus {
+  border: 1px solid #128cf4; 
 }
 
 .group {
