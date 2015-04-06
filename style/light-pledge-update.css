@@ -413,6 +413,7 @@ form select {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
+  border: 1px solid #128cf4;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -427,9 +428,10 @@ form select {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border: 1px solid #128cf4;
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
 }
 
 #amount input[type=radio] {
