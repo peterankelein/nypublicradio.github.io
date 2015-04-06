@@ -259,8 +259,11 @@ form select {
 
 .field.state select,
 .field.country select {
+  background-color: #eee;
   width: 400px;
   height: 55px;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
 
 .group {
