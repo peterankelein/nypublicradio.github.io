@@ -259,9 +259,8 @@ form select {
   width: 220px;
 }
 
-#premium_empty input[type=radio],
-#id_enewsletter_signup input[type=checkbox],
-#id_upsell input[type=checkbox] {
+input[type=radio],
+input[type=checkbox] {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -272,9 +271,10 @@ form select {
     width: 1px;
 }
     
-#premium_empty input[type=radio] ~ label:before,
-#id_enewsletter_signup input[type=checkbox] ~ label:before,
-#id_upsell input[type=checkbox] ~ label:before {
+input[type=radio] ~ label:before,
+input[type=checkbox] ~ label:before
+
+{
     font-family: FontAwesome;
     display: inline-block;
     content: "\f1db";
@@ -284,22 +284,21 @@ form select {
     width: 1.4em;
 }
 
-#premium_empty input[type=radio]:checked ~ label:before,
-#id_enewsletter_signup input[type=checkbox]:checked ~ label:before,
-#id_upsell input[type=checkbox]:checked ~ label:before {
+input[type=radio]:checked ~ label:before,
+input[type=checkbox]:checked ~ label:before {
     content: "\f058";
     font-size: 1.2em;
     color: #128cf4;
     letter-spacing: 5px;
 }
 
-#id_enewsletter_signup input[type=checkbox] ~ label:before,
-#id_upsell input[type=checkbox] ~ label:before {        
+input[type=checkbox] ~ label:before
+{        
     content: "\f1db";
 }
-#id_enewsletter_signup input[type=checkbox]:checked ~ label:before,
-#id_upsell input[type=checkbox]:checked ~ label:before {
-    content: "\f058";        
+input[type=checkbox]:checked ~ label:before
+{
+    content: \f058";        
     color: #128cf4;
 }
 
