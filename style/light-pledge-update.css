@@ -259,8 +259,7 @@ form select {
   width: 220px;
 }
 
-#id_enewsletter_signup input[type=radio],
-#id_enewsletter_signup input[type=checkbox] {
+.group.mini input[type=checkbox] {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -271,10 +270,7 @@ form select {
     width: 1px;
 }
     
-.group.mini input[type=radio] ~ label:before,
-.group.mini input[type=checkbox] ~ label:before
-
-{
+.group.mini input[type=checkbox] ~ label:before {
     font-family: FontAwesome;
     display: inline-block;
     content: "\f1db";
@@ -284,7 +280,6 @@ form select {
     width: 1.4em;
 }
 
-.group.mini input[type=radio]:checked ~ label:before,
 .group.mini input[type=checkbox]:checked ~ label:before {
     content: "\f058";
     font-size: 1.2em;
@@ -298,7 +293,7 @@ form select {
 }
 .group.mini input[type=checkbox]:checked ~ label:before
 {
-    content: \f058";        
+    content: "\f058";        
     color: #128cf4;
 }
 
