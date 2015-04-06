@@ -259,6 +259,46 @@ form select {
   width: 220px;
 }
 
+
+
+#premiums input[type=radio] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+    
+#premiums input[type=radio] ~ label:before
+{
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #999;
+    width: 1.4em;
+}
+
+#premiums input[type=radio]:checked ~ label:before {
+    content: "\f058";
+    font-size: 1.2em;
+    color: #128cf4;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 .group.mini input[type=checkbox] {
     border: 0;
     clip: rect(0 0 0 0);
