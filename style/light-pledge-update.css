@@ -241,10 +241,12 @@ input[type=text] {
 }
 
 input[type=text]:hover {
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
+  background-color: #eee; 
 }
 input[type=text]:focus {
-  border: 1px solid #128cf4; 
+  border: 1px solid #128cf4;
+  background-color: #eee; 
 }
 
 textarea {
