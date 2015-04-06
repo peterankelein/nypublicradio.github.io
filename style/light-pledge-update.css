@@ -334,7 +334,10 @@ form select {
   float: left;
 }
 
-#amount li:hover, #amount li label:hover  {
+#amount li:hover, 
+#amount li label:hover,
+#listening-now li:hover, 
+#listening-now li label:hover {
   background-color: transparent;
   border-color: #ccc;
   color: #000;
@@ -346,7 +349,10 @@ form select {
 }
 
 
-#amount li:last-child:hover, #amount li:last-child label:hover  {
+#amount li:last-child:hover, 
+#amount li:last-child label:hover,
+#listening-now li:last-child:hover, 
+#listening-now li:last-child label:hover {
   background-color: white;
   border-color: #ccc;
   color: #000;
@@ -358,7 +364,8 @@ form select {
 }
 
 
-#amount li label {
+#amount li label,
+#listening-now li label {
   display: inline-block;
   background-color: transparent;
   cursor: pointer;
@@ -367,7 +374,8 @@ form select {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
-#amount input[type="radio"]:checked+label {
+#amount input[type="radio"]:checked+label,
+#listening-now input[type="radio"]:checked+label {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
@@ -378,13 +386,15 @@ form select {
   transition: all 150ms linear;
 }
 
-#amount li:last-child input[type="radio"]:checked+label, {
+#amount li:last-child input[type="radio"]:checked+label,
+#listening-now li:last-child input[type="radio"]:checked+label {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
 }
 
-#amount input[type=radio] {
+#amount input[type=radio],
+#listening-now input[type=radio] {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
