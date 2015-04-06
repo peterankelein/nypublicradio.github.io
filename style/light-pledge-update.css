@@ -228,7 +228,7 @@ form .field label {
 
 input[type=text] {
   padding: 8px;
-  border: 1px solid #eee;; /* border: 1px solid #cecece; */
+  border: 1px solid #eee; /* border: 1px solid #cecece; */
   background-color: #eee;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -250,20 +250,15 @@ input[type=text]:focus {
 textarea {
   font-family: 'Gotham-Book-Italic', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
-  color: 
+  color: #000; 
 }
 
 form select {
-  margin: 5px 4px;
-    padding: 8px;
-  border: 1px solid #eee;; /* border: 1px solid #cecece; */
+  padding: 17px;
+  border: 1px solid #eee; /* border: 1px solid #cecece; */
   background-color: #eee;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
   font-size: 1em;
-  height: 38px;
-  width: 380px;
+  width: 400px;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
