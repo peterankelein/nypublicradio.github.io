@@ -240,8 +240,11 @@ form .field label {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
+#payment input[type=text]:hover {
+  border: 1px solid #ccc; 
+}
+
 #payment input[type=text]:focus {
-  background-color: #eee;
   border: 1px solid #128cf4; 
 }
 
