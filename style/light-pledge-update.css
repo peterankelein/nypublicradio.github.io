@@ -226,7 +226,7 @@ form .field label {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
-#payment input[type=text] {
+input[type=text] {
   padding: 8px;
   border: 1px solid #eee;; /* border: 1px solid #cecece; */
   background-color: #eee;
@@ -240,11 +240,10 @@ form .field label {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
-#payment input[type=text]:hover {
+input[type=text]:hover {
   border: 1px solid #ccc; 
 }
-
-#payment input[type=text]:focus {
+input[type=text]:focus {
   border: 1px solid #128cf4; 
 }
 
@@ -254,7 +253,7 @@ textarea {
   color: 
 }
 
-#payement form select {
+form select {
   margin: 5px 4px;
 }
 
@@ -441,6 +440,7 @@ textarea {
 
 
 li.other input.numeric {
+  background-color: #fff;
   width: 115px;
   height: auto;
   margin: 0 0 0 -4px;
