@@ -228,7 +228,7 @@ form .field label {
 
 input[type=text] {
   padding: 8px;
-  border: none; /* border: 1px solid #cecece; */
+  border: 1px solid #eee;; /* border: 1px solid #cecece; */
   background-color: #eee;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
