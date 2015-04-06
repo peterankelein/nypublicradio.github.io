@@ -653,6 +653,7 @@ input.submit {
 
 input.submit:hover {
   background-color: #016fcd;
+  border: 1px solid #016fcd;
   background-image: none;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
