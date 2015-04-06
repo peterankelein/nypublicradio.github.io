@@ -335,9 +335,9 @@ form select {
 }
 
 #amount li:hover, #amount li label:hover  {
-  background-color: #128cf4;
-  border-color: #128cf4;
-  color: #fff;
+  background-color: transparent;
+  border-color: #ccc;
+  color: #000;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
   -o-transition: all 150ms linear;
