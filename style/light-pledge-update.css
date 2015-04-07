@@ -326,6 +326,44 @@ form select {
     color: #128cf4;
 }
 
+
+
+
+#premium_empty input[type=radio] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+    
+#premium_empty input[type=radio] ~ label:before
+
+{
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #999;
+    width: 1.4em;
+}
+
+#premium_empty input[type=radio]:checked ~ label:before {
+    content: "\f058";
+    font-size: 1.2em;
+    color: #128cf4;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
 /* form pg 1 */
 
 .special-offers-box {
@@ -395,7 +433,7 @@ form select {
 
 #amount li:hover, 
 #amount li label:hover {
-  background-color: #f9f9f9;
+  background-color: transparent;
   border-color: #ccc;
   color: #000;
   -webkit-transition: all 150ms linear;
@@ -408,7 +446,7 @@ form select {
 
 #amount li:last-child:hover, 
 #amount li:last-child label:hover {
-  background-color: #f9f9f9;
+  background-color: white;
   border-color: #ccc;
   color: #000;
   -webkit-transition: all 150ms linear;
@@ -444,7 +482,7 @@ form select {
 
 #amount li:last-child input[type="radio"]:checked+label {
   background-color: #128cf4; 
-  border-color: #128cf4;
+  border: 1px solid #128cf4;
   -moz-border-radius: 4px 0 0 4px;
   -webkit-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
