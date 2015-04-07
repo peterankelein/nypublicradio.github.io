@@ -299,6 +299,7 @@ form select {
 }
     
 .group.mini input[type=checkbox] ~ label:before {
+    cursor: pointer;
     font-family: FontAwesome;
     display: inline-block;
     content: "\f1db";
