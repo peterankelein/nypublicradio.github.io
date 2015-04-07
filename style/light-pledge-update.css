@@ -395,7 +395,7 @@ form select {
 
 #amount li:hover, 
 #amount li label:hover {
-  background-color: transparent;
+  background-color: #f9f9f9;
   border-color: #ccc;
   color: #000;
   -webkit-transition: all 150ms linear;
@@ -408,7 +408,7 @@ form select {
 
 #amount li:last-child:hover, 
 #amount li:last-child label:hover {
-  background-color: white;
+  background-color: #f9f9f9;
   border-color: #ccc;
   color: #000;
   -webkit-transition: all 150ms linear;
@@ -444,7 +444,7 @@ form select {
 
 #amount li:last-child input[type="radio"]:checked+label {
   background-color: #128cf4; 
-  border: 1px solid #128cf4;
+  border-color: #128cf4;
   -moz-border-radius: 4px 0 0 4px;
   -webkit-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
