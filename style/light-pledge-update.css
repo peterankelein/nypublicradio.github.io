@@ -747,6 +747,7 @@ input.submit {
   background-image: none;
   background-image: none;
   color: #fff;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 600;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
