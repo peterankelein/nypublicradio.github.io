@@ -434,7 +434,7 @@ form select {
 #amount li:hover, 
 #amount li label:hover {
   background-color: #f9f9f9;
-  border-color: #ccc;
+  border-color: transparent;
   color: #000;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
@@ -447,7 +447,7 @@ form select {
 #amount li:last-child:hover, 
 #amount li:last-child label:hover {
   background-color: #f9f9f9;
-  border-color: #ccc;
+  border-color: transparent;
   color: #000;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
