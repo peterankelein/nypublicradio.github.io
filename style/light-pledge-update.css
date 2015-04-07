@@ -433,8 +433,8 @@ form select {
 
 #amount li:hover, 
 #amount li label:hover {
-  background-color: #f9f9f9;
-  border-color: transparent;
+  background-color: transparent;
+  border-color: #ccc;
   color: #000;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
@@ -446,8 +446,8 @@ form select {
 
 #amount li:last-child:hover, 
 #amount li:last-child label:hover {
-  background-color: #f9f9f9;
-  border-color: transparent;
+  background-color: transparent;
+  border-color: #ccc;
   color: #000;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
@@ -732,7 +732,7 @@ textarea#id_comments {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #666;
 }
 
