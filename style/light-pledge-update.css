@@ -285,7 +285,9 @@ form select {
 
 .group.mini {
   margin: 20px 0 0;
+  font-size: 1.1em;
 }
+
 
 .group.mini input[type=checkbox] {
     border: 0;
@@ -311,7 +313,7 @@ form select {
 
 .group.mini input[type=checkbox]:checked ~ label:before {
     content: "\f058";
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #128cf4;
     letter-spacing: 5px;
 }
@@ -679,6 +681,7 @@ li.other span {
 
 h4.listening {
   font-weight: normal;
+  font-size: 1.1em;
 }
 
 #listening-now li {
