@@ -912,3 +912,11 @@ body#premium-popup {
 .share-options .facebook span {
   background-position: -80px -81px;
 }
+
+
+
+input[type='radio'], label{   
+    vertical-align: baseline;
+    padding: 10px;
+    margin: 10px;
+ }
