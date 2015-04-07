@@ -329,7 +329,7 @@ form select {
 
 
 
-input[type=radio] {
+#premium_empty input[type=radio] {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -340,7 +340,7 @@ input[type=radio] {
     width: 1px;
 }
     
-input[type=radio] ~ label:before
+#premium_empty input[type=radio] ~ label:before
 
 {
     font-family: FontAwesome;
@@ -352,7 +352,7 @@ input[type=radio] ~ label:before
     width: 1.4em;
 }
 
-input[type=radio]:checked ~ label:before {
+#premium_empty input[type=radio]:checked ~ label:before {
     content: "\f058";
     font-size: 1.2em;
     color: #128cf4;
