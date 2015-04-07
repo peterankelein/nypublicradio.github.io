@@ -737,7 +737,7 @@ textarea#id_comments {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   font-size: 1.1em;
-  color: #666;
+  color: #000;
 }
 
 input.submit {
