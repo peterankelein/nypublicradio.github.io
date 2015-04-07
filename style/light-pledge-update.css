@@ -440,9 +440,10 @@ form select {
 }
 
 #amount li:last-child input[type="radio"]:checked+label {
-  background-color: #128cf4;
-  border-color: #128cf4;
-  color: #fff;
+  background-color: #128cf4; 
+  border-right: 10px solid;
+  border-color: #128cf4; 
+  color: #fff; 
 }
 
 #amount input[type=radio] {
