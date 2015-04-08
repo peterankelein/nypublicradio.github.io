@@ -49,8 +49,9 @@ a, input.submit {
   transition: all .15s linear;
 }
 
-
-
+/***********************************************
+GENERAL
+************************************************/
 
 body {
   font: 62.5% 'Gotham-Book', Arial, Helvetica, sans-serif;
@@ -582,16 +583,8 @@ h4.listening {
   color: #fff;
 }
 
-
 textarea#id_comments {
-  width: 90%;
-  height: 65px;
   padding: 15px 8px 8px 15px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
   font-size: 1.1em;
   color: #000;
 }
@@ -599,25 +592,14 @@ textarea#id_comments {
 input.submit {
   background-color: #128cf4;
   background-image: none;
-  background-image: none;
-  background-image: none;
-  color: #fff;
   font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
   font-size: 1.1em;
-  font-weight: 600;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  border: 1px solid #2a5c97;
+  font-weight: normal;
   border-color: #128cf4;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
   padding: 14px 21px;
-  margin: 25px 20px 25px 0;
-  cursor: pointer;
 }
 
 input.submit:hover {
   background-color: #016fcd;
   border: 1px solid #016fcd;
-  background-image: none;
 }
