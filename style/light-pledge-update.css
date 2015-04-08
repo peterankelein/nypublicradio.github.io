@@ -170,28 +170,28 @@ h1 {
 
 h2 {
   font-size: 1.1em;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
   margin: 10px 0;
 }
 
 h2.label {
   height: 37px;
   margin-top: 30px; /* 70px */
-  line-height: 2.2em;
+  line-height: 2.4em;
   background-color: #000;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
   color: #fff;
   text-transform: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: normal;
 }
 
 h2.label .level-step {
   height: 30px;
   width: 30px;
-  line-height: 2.2em;
+  line-height: 2.4em;
   background-color: #000;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -281,7 +281,6 @@ form select {
 .field.country select {
   width: 400px;
 }
-
 
 .field.month select:hover,
 .field.year select:hover,
@@ -767,7 +766,7 @@ input.submit {
   background-image: none;
   background-image: none;
   color: #fff;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 600;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
@@ -776,7 +775,7 @@ input.submit {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  padding: 10px 25px;
+  padding: 14px 21px;
   margin: 25px 20px 25px 0;
   cursor: pointer;
 }
