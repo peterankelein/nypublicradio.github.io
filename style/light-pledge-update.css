@@ -29,7 +29,7 @@ FONT IMPORTS
 ANIMATIONS/TRANSITIONS
 ************************************************/
 
-a, input.submit:hover {
+a, input.submit {
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
