@@ -265,7 +265,7 @@ form select {
 .field.state select,
 .field.country select {
   border: 1px solid #eee;
-  background-color: #eee;
+  background-color: #fff;
   width: 400px;
   height: 35px;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
