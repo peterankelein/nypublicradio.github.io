@@ -185,6 +185,7 @@ h2.label {
   color: #fff;
   text-transform: none;
   font-size: 1.2em;
+  font-weight: normal;
 }
 
 h2.label .level-step {
