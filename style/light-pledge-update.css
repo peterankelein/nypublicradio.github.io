@@ -260,27 +260,29 @@ form select {
   margin: 5px 4px;
 }
 
-
 .field.month select,
-.field.year select {
-  border: 1px solid #eee;
-  background-color: #eee;
-  width: 180px;
-  height: 55px;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
-  font-size: 1em;
-}
-
+.field.year select,
 .field.state select,
 .field.country select {
   border: 1px solid #eee;
   background-color: #eee;
   width: 400px;
-  height: 55px;
+  height: 35px;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
-,
+
+.field.month select,
+.field.year select {
+  width: 192px;
+}
+
+.field.state select,
+.field.country select {
+  width: 400px;
+}
+
+
 .field.month select:hover,
 .field.year select:hover,
 .field.state select:hover,
@@ -296,7 +298,7 @@ form select {
 }
 
 .group {
-  margin: 30px 0;
+  margin: 0; /* margin: 30px 0; */
 }
 
 .group.mini {
@@ -653,7 +655,9 @@ li.other span {
   margin-bottom: 15px;
 }
 
-#contact-info {margin-top: 25px;}
+#contact-info {
+  margin-top: 25px;
+}
 
 #contact-info label {
   display: inline-block;
