@@ -169,8 +169,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
   margin: 10px 0;
 }
 
@@ -184,12 +184,13 @@ h2.label {
   border-radius: 0px;
   color: #fff;
   text-transform: none;
-  font-size: 1.2em;
 }
 
 h2.label .level-step {
   height: 30px;
   width: 30px;
+  margin-left: 20px;
+  margin-right: 0px; /* 5px */
   line-height: 2.2em;
   background-color: #000;
   -moz-border-radius: 0px;
@@ -197,8 +198,6 @@ h2.label .level-step {
   border-radius: 0px;
   text-align: center;
   float: left;
-  margin-left: 20px;
-  margin-right: 0px; /* 5px */
 }
 
 #confirm h2 {
