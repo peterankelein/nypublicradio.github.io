@@ -349,24 +349,6 @@ li.other span {
   color: #000;
 }
 
- 
-
-
-#pay-cc .card-number {
-  padding-top: 40px;
-  background: url(/media/img/pledge/pledge-sprite.png?v2) no-repeat 180px 0;
-}
-
-#payment_method_cc { /* cc radio */
-  margin-left: 182px;
-  vertical-align: top;
-}
-
-
-#pay-cc .field label { /* cc input labels */
-  width: 140px;
-}
-
 h4.listening {
   font-size: 1.1em;
 }
