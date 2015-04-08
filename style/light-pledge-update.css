@@ -170,7 +170,7 @@ h1 {
 
 h2 {
   font-size: 1.1em;
-  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   margin: 10px 0;
 }
 
@@ -473,7 +473,6 @@ form select {
 #amount input[type="radio"]:checked+label {
   color: #fff;
   background-color: #128cf4;
-  border: 1px solid #128cf4;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -486,7 +485,6 @@ form select {
 
 #amount li:last-child input[type="radio"]:checked+label {
   background-color: #128cf4; 
-  border: 1px solid #128cf4;
   -moz-border-radius: 4px 0 0 4px;
   -webkit-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
