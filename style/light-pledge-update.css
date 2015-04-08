@@ -352,8 +352,8 @@ form select {
 
 
 
-#full-gift-list input[type=radio],
-#full-gift-list input[type=checkbox] {
+#full-gift-list li input[type=radio],
+#full-gift-list li input[type=checkbox] {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -364,8 +364,8 @@ form select {
     width: 1px;
 }
     
-#full-gift-list input[type=radio] ~ label:before,
-#full-gift-list input[type=checkbox] ~ label:before
+#full-gift-list li input[type=radio] ~ label:before,
+#full-gift-list li input[type=checkbox] ~ label:before
 
 {
     font-family: FontAwesome;
@@ -377,19 +377,19 @@ form select {
     width: 1.4em;
 }
 
-#full-gift-list input[type=radio]:checked ~ label:before,
-#full-gift-list input[type=checkbox]:checked ~ label:before {
+#full-gift-list li input[type=radio]:checked ~ label:before,
+#full-gift-list li input[type=checkbox]:checked ~ label:before {
     content: "\f058";
     font-size: 1.2em;
     color: #128cf4;
     letter-spacing: 5px;
 }
 
-#full-gift-list input[type=checkbox] ~ label:before
+#full-gift-list li input[type=checkbox] ~ label:before
 {        
     content: "\f1db";
 }
-#full-gift-list input[type=checkbox]:checked ~ label:before
+#full-gift-list li input[type=checkbox]:checked ~ label:before
 {
     content: "\f058";        
     color: #128cf4;
