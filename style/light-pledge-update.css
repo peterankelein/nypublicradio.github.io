@@ -1,3 +1,7 @@
+/**********************************************
+FONT IMPORTS
+************************************************/
+
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
 
 @font-face {
@@ -20,6 +24,33 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/***********************************************
+ANIMATIONS/TRANSITIONS
+************************************************/
+
+a, input.submit:hover {
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+#amount li:hover, 
+#amount li label:hover,
+#amount li:last-child:hover, 
+#amount li:last-child label:hover,
+#listening-now input[type="radio"]:checked+label  {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -o-transition: all .15s linear;
+  -ms-transition: all .15s linear;
+  transition: all .15s linear;
+}
+
+
+
 
 body {
   font: 62.5% 'Gotham-Book', Arial, Helvetica, sans-serif;
@@ -56,11 +87,6 @@ i, em {
 a {
   color: #128cf4;
   text-decoration: none;
-  -webkit-transition: all .15s ease-in-out;
-  -moz-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  -ms-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
 }
 
 a:hover {
@@ -323,11 +349,6 @@ textarea {
   background-color: transparent;
   border-color: #ccc;
   color: #000;
-  -webkit-transition: all 150ms linear;
-  -moz-transition: all 150ms linear;
-  -o-transition: all 150ms linear;
-  -ms-transition: all 150ms linear;
-  transition: all 150ms linear;
 }
 
 #amount li label {
@@ -345,11 +366,6 @@ textarea {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-transition: all 150ms linear;
-  -moz-transition: all 150ms linear;
-  -o-transition: all 150ms linear;
-  -ms-transition: all 150ms linear;
-  transition: all 150ms linear;
 }
 
 #amount li:last-child input[type="radio"]:checked+label {
@@ -388,10 +404,6 @@ li.other span {
   font-size: .9em;
   color: #000; /* #999; */
 }
-
-
-
-
 
 #featured-gifts {
   position: relative; /* IE7 */
@@ -564,15 +576,10 @@ h4.listening {
   font-size: 1em;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
-#listening-now input[type="radio"]:checked+label{
+#listening-now input[type="radio"]:checked+label {
   background-color: #128cf4;
   border-color: #128cf4;
   color: #fff;
-  -webkit-transition: all 150ms linear;
-  -moz-transition: all 150ms linear;
-  -o-transition: all 150ms linear;
-  -ms-transition: all 150ms linear;
-  transition: all 150ms linear;
 }
 
 
@@ -613,9 +620,4 @@ input.submit:hover {
   background-color: #016fcd;
   border: 1px solid #016fcd;
   background-image: none;
-  -webkit-transition: all 150ms linear;
-  -moz-transition: all 150ms linear;
-  -o-transition: all 150ms linear;
-  -ms-transition: all 150ms linear;
-  transition: all 150ms linear;
 }
