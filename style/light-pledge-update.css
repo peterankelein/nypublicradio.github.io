@@ -177,7 +177,7 @@ h2 {
 h2.label {
   height: 37px;
   margin-top: 30px; /* 70px */
-  line-height: 2.2em;
+  line-height: 2.4em;
   background-color: #000;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -191,7 +191,7 @@ h2.label .level-step {
   width: 30px;
   margin-left: 20px;
   margin-right: 0px; /* 5px */
-  line-height: 2.2em;
+  line-height: 2.4em;
   background-color: #000;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
