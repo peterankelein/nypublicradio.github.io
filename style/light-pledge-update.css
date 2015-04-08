@@ -53,7 +53,9 @@ i, em {
 
 /* general */
 
-:hover { 
+a {
+  color: #128cf4;
+  text-decoration: none;
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
@@ -61,13 +63,8 @@ i, em {
   transition: all .25s ease-in-out;
 }
 
-a {
-  color: #128cf4;
-  text-decoration: none;
-}
-
 a:hover {
-  color: #000;
+  color: #69b1ee;
   text-decoration: none;
 }
 
