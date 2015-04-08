@@ -750,7 +750,7 @@ h4.listening {
 textarea#id_comments {
   width: 90%;
   height: 65px;
-  padding: 8px;
+  padding: 15px 8px 8px 15px;
   margin: 5px 0;
   border: 1px solid #ccc;
   -moz-border-radius: 3px;
