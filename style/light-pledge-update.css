@@ -349,15 +349,8 @@ li.other span {
   color: #000;
 }
 
-#contact-info {
-  margin-top: 25px;
-}
+ 
 
-#contact-info label {
-  display: inline-block;
-  width: 150px; /* 175px */
-  text-align: right;
-}
 
 #pay-cc .card-number {
   padding-top: 40px;
