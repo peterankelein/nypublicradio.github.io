@@ -354,7 +354,7 @@ li.other span {
 
 #pay-cc .card-number {
   padding-top: 40px;
-  background: url(/media/img/pledge/pledge-sprite.png) no-repeat 180px 0;
+  background: url(/media/img/pledge/pledge-sprite.png?v2) no-repeat 180px 0;
 }
 
 #payment_method_cc { /* cc radio */
