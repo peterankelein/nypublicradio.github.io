@@ -361,13 +361,6 @@ li.other span {
   color: #000;
 }
 
-#pay-cc .card-number {
-    padding-top: 10px;
-    padding-right: 100px;
-    height: 76px; /*height of top sprite section*/
-    background: url(/media/img/pledge/pledge-sprite.png?v2) no-repeat 178px 8px transparent;
-}
-
 h4.listening {
   font-size: 1.1em;
 }
