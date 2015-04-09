@@ -306,6 +306,14 @@ textarea {
   letter-spacing: 5px;
 }
 
+#featured-gifts li .title {
+  font-size: .94em;
+}
+
+#featured-gifts li .level {
+  bottom: 10px;
+  font-size: .85em;
+}
 
 /* form pg 1 */
 #amount li, #featured-gifts li {
@@ -365,9 +373,6 @@ li.other span {
 #pay-cc .card-number {
     height: auto; /*height of top sprite section*/
 }
-
-
-
 
 #pay-check input[type=radio] ~ label:before {
   cursor: pointer;
