@@ -257,7 +257,7 @@ textarea {
   letter-spacing: 10px;
   font-size: 1.4em;
   color: #999;
-  width: 1.4em;
+  width: 1.1em;
   vertical-align: -2px;
 }
 
@@ -279,21 +279,21 @@ textarea {
 }   
 
 
-#full-gift-list li {padding-bottom: 5px;}
+#full-gift-list li {padding-bottom: 3px;}
 
 #full-gift-list input[type=radio] ~ label:before {
   font-family: FontAwesome;
   display: inline-block;
   content: "\f1db";
   letter-spacing: 10px;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #999;
-  width: 1.4em;
+  width: 1.1em;
 }
 
 #full-gift-list input[type=radio]:checked ~ label:before {
   content: "\f058";
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #128cf4;
   letter-spacing: 5px;
 }
