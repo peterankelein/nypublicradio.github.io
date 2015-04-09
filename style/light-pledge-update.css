@@ -418,10 +418,12 @@ input.submit:hover {
   border: 1px solid #016fcd;
 }
 
-
 .privacy {
-  width: 380px;
+    margin: 0 auto;
+    max-width: 50%;
+    padding-bottom: 30px;
 }
+
 /***********************************************
 ANIMATIONS/TRANSITIONS
 ************************************************/
