@@ -227,6 +227,7 @@ textarea {
 
 .group.mini {
   font-size: 1.1em;
+  line-height: 1.4em;
 }
     
 .group.mini input[type=checkbox] ~ label:before {
@@ -411,7 +412,7 @@ input.submit {
   font-weight: normal;
   border-color: #128cf4;
   padding: 14px 21px;
-  margin: 25px 0;
+  margin: 25px 0 10px;
 }
 
 input.submit:hover {
