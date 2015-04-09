@@ -411,6 +411,7 @@ input.submit {
   font-weight: normal;
   border-color: #128cf4;
   padding: 14px 21px;
+  margin: 25px 0;
 }
 
 input.submit:hover {
