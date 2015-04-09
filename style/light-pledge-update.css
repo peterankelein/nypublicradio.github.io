@@ -298,6 +298,10 @@ textarea {
   letter-spacing: 5px;
 }
 
+#premiums > input[type=radio] ~ label:before {
+  width: 1.4em;
+}
+
 #full-gift-list li {padding-bottom: 3px;}
 
 /* form pg 1 */
