@@ -361,6 +361,10 @@ li.other span {
   color: #000;
 }
 
+#pay-cc .card-number {
+    height: auto; /*height of top sprite section*/
+}
+
 h4.listening {
   font-size: 1.1em;
 }
