@@ -325,7 +325,7 @@ textarea {
 
 #amount li label {
   background-color: transparent;
-  padding: 10px;
+  padding: 10px 28px;
   border-left: 0; 
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -397,6 +397,10 @@ textarea#id_comments {
   padding: 15px 8px 8px 15px;
   font-size: 1.1em;
   color: #000;
+}
+
+#submit-section {
+  text-align: center;
 }
 
 input.submit {
