@@ -26,30 +26,6 @@ FONT IMPORTS
 }
 
 /***********************************************
-ANIMATIONS/TRANSITIONS
-************************************************/
-
-a, input.submit {
-  -webkit-transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  -ms-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-}
-
-#amount li:hover, 
-#amount li label:hover,
-#amount li:last-child:hover, 
-#amount li:last-child label:hover,
-#listening-now input[type="radio"]:checked+label  {
-  -webkit-transition: all .15s linear;
-  -moz-transition: all .15s linear;
-  -o-transition: all .15s linear;
-  -ms-transition: all .15s linear;
-  transition: all .15s linear;
-}
-
-/***********************************************
 GENERAL
 ************************************************/
 
@@ -83,8 +59,6 @@ i, em {
   border-radius: 5px;
   padding: 0;
 }
-
-/* general */
 
 a {
   color: #128cf4;
@@ -156,19 +130,6 @@ h3 {
 form .field label {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
-}
-
-input[type=text] {
-  border: 1px solid #eee;
-  background-color: #eee;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  font-size: 1em;
-  margin: 6px;
-  height: 38px;
-  width: 380px;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
 input[type=text]:hover {
@@ -430,4 +391,28 @@ input.submit {
 input.submit:hover {
   background-color: #016fcd;
   border: 1px solid #016fcd;
+}
+
+/***********************************************
+ANIMATIONS/TRANSITIONS
+************************************************/
+
+a, input.submit {
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+#amount li:hover, 
+#amount li label:hover,
+#amount li:last-child:hover, 
+#amount li:last-child label:hover,
+#listening-now input[type="radio"]:checked+label  {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -o-transition: all .15s linear;
+  -ms-transition: all .15s linear;
+  transition: all .15s linear;
 }
