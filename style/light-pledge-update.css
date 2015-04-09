@@ -418,6 +418,10 @@ input.submit:hover {
   border: 1px solid #016fcd;
 }
 
+
+.privacy {
+  width: 380px;
+}
 /***********************************************
 ANIMATIONS/TRANSITIONS
 ************************************************/
