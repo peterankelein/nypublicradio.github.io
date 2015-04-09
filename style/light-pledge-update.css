@@ -308,7 +308,7 @@ textarea {
 
 
 
-#featured-gifts input[type=radio] ~ label:before {
+#featured-gifts div input[type=radio] ~ div label:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -319,7 +319,7 @@ textarea {
   width: 1em;
 }
 
-#featured-gifts input[type=radio]:checked ~ label:before {
+#featured-gifts div input[type=radio]:checked ~ div label:before {
   content: "\f058";
   font-size: 1.4em;
   color: #128cf4;
