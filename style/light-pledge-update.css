@@ -228,6 +228,7 @@ textarea {
 
 .group.mini input[type=checkbox], 
 #premiums > input[type=radio],
+#featured_gifts li input[type=radio],
 #full-gift-list li input[type=radio],
 #amount input[type=radio],
 #listening-now input[type=radio]
