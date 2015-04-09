@@ -281,7 +281,7 @@ textarea {
 
 #full-gift-list li {padding-bottom: 3px;}
 
-#full-gift-list input[type=radio] ~ label:before {
+#premiums input[type=radio] ~ label:before {
   font-family: FontAwesome;
   display: inline-block;
   content: "\f1db";
@@ -291,7 +291,7 @@ textarea {
   width: 1em;
 }
 
-#full-gift-list input[type=radio]:checked ~ label:before {
+#premiums input[type=radio]:checked ~ label:before {
   content: "\f058";
   font-size: 1.4em;
   color: #128cf4;
