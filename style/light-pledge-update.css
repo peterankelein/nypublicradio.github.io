@@ -278,6 +278,9 @@ textarea {
   color: #128cf4;
 }   
 
+
+#full-gift-list li {padding-bottom: 5px;}
+
 #full-gift-list input[type=radio] ~ label:before {
   font-family: FontAwesome;
   display: inline-block;
