@@ -227,7 +227,8 @@ textarea {
   but keep them accessible*/
 
 .group.mini input[type=checkbox], 
-#premiums li input[type=radio],
+#full_gift_list li input[type=radio],
+#premium_empty input[type=radio],
 #amount input[type=radio],
 #listening-now input[type=radio]
 {
@@ -278,7 +279,9 @@ textarea {
   color: #128cf4;
 }   
 
-#premiums input[type=radio] ~ label:before {
+#full-gift-list li {padding-bottom: 3px;}
+
+#full-gift-list input[type=radio] ~ label:before {
   font-family: FontAwesome;
   display: inline-block;
   content: "\f1db";
@@ -288,14 +291,13 @@ textarea {
   width: 1em;
 }
 
-#premiums input[type=radio]:checked ~ label:before {
+#full-gift-list input[type=radio]:checked ~ label:before {
   content: "\f058";
   font-size: 1.4em;
   color: #128cf4;
   letter-spacing: 5px;
 }
 
-#full-gift-list li {padding-bottom: 3px;}
 
 /* form pg 1 */
 #amount li, #featured-gifts li {
