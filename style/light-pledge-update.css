@@ -306,6 +306,32 @@ textarea {
 
 #full-gift-list li {padding-bottom: 3px;}
 
+
+
+
+#featured-gifts li input[type=radio] ~ label:before {
+  cursor: pointer;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f1db";
+  letter-spacing: 10px;
+  font-size: 1.4em;
+  color: #ccc;
+  width: 1em;
+}
+
+#featured-gifts li input[type=radio]:checked ~ label:before {
+  content: "\f058";
+  font-size: 1.4em;
+  color: #128cf4;
+  letter-spacing: 5px;
+}
+
+
+
+
+
+
 /* form pg 1 */
 #amount li, #featured-gifts li {
   border: 1px solid #ccc; /* 2px solid #e9e9e9; */
