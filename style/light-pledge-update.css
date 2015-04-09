@@ -256,7 +256,7 @@ textarea {
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
-  color: #999;
+  color: #ccc;
   width: 1.1em;
   vertical-align: -2px;
 }
@@ -287,8 +287,8 @@ textarea {
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
-  color: #999;
-  width: 1.1em;
+  color: #ccc;
+  width: 1em;
 }
 
 #full-gift-list input[type=radio]:checked ~ label:before {
