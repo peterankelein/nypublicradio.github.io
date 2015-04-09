@@ -228,7 +228,7 @@ textarea {
 
 .group.mini input[type=checkbox], 
 #premiums > input[type=radio],
-#featured_gifts li input[type=radio],
+#featured-gifts li input[type=radio],
 #full-gift-list li input[type=radio],
 #amount input[type=radio],
 #listening-now input[type=radio]
@@ -282,6 +282,7 @@ textarea {
 
 #premiums > input[type=radio] ~ label:before,
 #full-gift-list input[type=radio] ~ label:before {
+  cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f1db";
