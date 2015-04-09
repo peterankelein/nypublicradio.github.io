@@ -400,7 +400,7 @@ textarea#id_comments {
 }
 
 .submit-section {
-  text-align: center;
+  margin: 0 auto;
 }
 
 input.submit {
@@ -418,9 +418,7 @@ input.submit:hover {
   border: 1px solid #016fcd;
 }
 
-.privacy {
-    margin: 0 auto;
-    max-width: 50%;
+.privacy {   
     padding-bottom: 30px;
 }
 
