@@ -177,12 +177,12 @@ textarea {
 
 .field.month select,
 .field.year select {
-  width: 192px;
+  width: 176px;
 }
 
 .field.state select,
 .field.country select {
-  width: 400px;
+  width: 369px;
 }
 
 .field.month select:hover,
@@ -198,6 +198,8 @@ textarea {
 .field.country select:focus {
   border: 1px solid #128cf4; 
 }
+
+
 
 /* Hide all radio buttons/checkboxes 
   but keep them accessible*/
@@ -356,6 +358,10 @@ li.other input.numeric {
 li.other span {
   bottom: -25px;
   color: #000;
+}
+
+#pay-cc .card-number {
+    background: url(/media/img/pledge/pledge-sprite.png?v2) no-repeat 178px 8px transparent;
 }
 
 h4.listening {
