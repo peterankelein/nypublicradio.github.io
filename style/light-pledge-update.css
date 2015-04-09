@@ -209,6 +209,7 @@ textarea {
 #featured-gifts input[type=radio],
 #full-gift-list li input[type=radio],
 #amount input[type=radio],
+#pay-check input[type=radio],
 #listening-now input[type=radio]
 {
   border: 0;
@@ -326,7 +327,7 @@ textarea {
 
 #amount li label {
   background-color: transparent;
-  padding: 10px 28px;
+  padding: 10px;
   border-left: 0; 
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -364,6 +365,28 @@ li.other span {
 #pay-cc .card-number {
     height: auto; /*height of top sprite section*/
 }
+
+
+
+
+#pay-check input[type=radio] ~ label:before {
+  cursor: pointer;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f1db";
+  letter-spacing: 10px;
+  font-size: 1.4em;
+  color: #ccc;
+  width: 1em;
+}
+
+#pay-check input[type=radio]:checked ~ label:before {
+  content: "\f058";
+  font-size: 1.4em;
+  color: #128cf4;
+  letter-spacing: 5px;
+}
+
 
 h4.listening {
   font-size: 1.1em;
