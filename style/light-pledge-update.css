@@ -131,7 +131,7 @@ form .field label {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
-input.card-number[type="text"] {
+input .field.card-number[type="text"] {
   width: 200px;
 }
 
@@ -142,7 +142,7 @@ input[type=text] {
   -webkit-border-radius: 0;
   border-radius: 0;
   height: 38px;
-  width: 380px;
+  width: 350px;
   font-size: 1em;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
