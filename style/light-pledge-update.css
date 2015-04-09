@@ -227,7 +227,7 @@ textarea {
 
 .group.mini {
   font-size: 1.1em;
-  line-height: 1.4em;
+  line-height: 1.4em
 }
     
 .group.mini input[type=checkbox] ~ label:before {
@@ -362,6 +362,9 @@ li.other span {
 }
 
 #pay-cc .card-number {
+    padding-top: 10px;
+    padding-right: 100px;
+    height: 76px; /*height of top sprite section*/
     background: url(/media/img/pledge/pledge-sprite.png?v2) no-repeat 178px 8px transparent;
 }
 
