@@ -478,6 +478,17 @@ textarea#id_comments {
   text-align: center;
 }
 
+.submit-paypal {
+    display:none;
+    padding: 10px 0;
+    margin: 25px 0 25px 0px;
+}
+
+.submit-paypal .submit-paypal-prefix {
+    font-weight: normal;
+    font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+}
+
 input.submit {
   background-color: #128cf4;
   background-image: none;
