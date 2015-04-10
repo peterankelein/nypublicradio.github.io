@@ -515,7 +515,7 @@ input.submit:hover {
 ANIMATIONS/TRANSITIONS
 ************************************************/
 
-a, input.submit {
+a, input.submit, .submit-paypal {
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
