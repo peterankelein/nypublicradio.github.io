@@ -310,6 +310,10 @@ textarea {
 #featured-gifts input[type=radio]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
+  background-color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 
 #featured-gifts li .title {
