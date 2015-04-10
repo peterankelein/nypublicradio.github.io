@@ -408,8 +408,10 @@ li.other span {
 #payment-options .payment-option:hover {
   background-color: #f9f9f9;
 }
-#payment-options .payment-option:active {
+#payment-options .payment-option:active,
+#payment-options .payment-option input[type=radio] {
   background-color: #128cf4;
+  color: #fff;
 }
 
 #payment-options .group {
