@@ -286,6 +286,15 @@ textarea {
 
 #full-gift-list li {padding-bottom: 3px;}
 
+#full-gift-list li a {
+  display:block;
+  text-indent: -30px;/*this pulls the first line to the left*/
+  padding-left:35px;/*this pushes the paragraph to the right*/
+  padding-right:5px;
+  text-align:justify;
+}
+
+
 
 #featured-gifts li .wrapper.radio {
   background-color: #ccc;
@@ -384,6 +393,85 @@ li.other span {
   bottom: -25px;
   color: #000;
 }
+
+
+
+
+#payment-options .payment-option {
+  display: inline-block;
+  min-width: 150px;
+  height: 44px;
+  border: 1px solid #cecece;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-left: 2px;
+  padding: 0 22px;
+  vertical-align: middle;
+  line-height:44px;
+  cursor: pointer;
+}
+
+#payment-options .payment-option:hover {
+  background-color: #f2f2f2;
+}
+
+#payment-options .group {
+  margin-bottom: 5px; /*shorten default*/
+}
+
+#payment-options .payment-option * {
+  margin-left:15px;
+}
+
+#payment-options .payment-option input[type=radio] {
+    vertical-align: middle;
+    margin: 0;
+}
+
+#payment-options .payment-option img.payment-method-cc-image {
+    margin-bottom: -3px;
+    pointer-events: none;
+}
+
+#payment-options .payment-option img.payment-method-paypal-image {
+    margin-bottom: -5px;
+    pointer-events: none; /*for IE to bubble*/
+}
+
+#payment-methods #pay-check .payment-option input[type=radio] {
+    display: none;
+}
+
+#payment-methods #pay-check .payment-option input[type=radio]:checked {
+    display:inline;
+}
+
+#payment-methods #pay-check .payment-option {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #pay-cc .card-number {
     height: auto; /*height of top sprite section*/
