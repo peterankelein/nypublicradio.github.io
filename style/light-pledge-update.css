@@ -307,6 +307,7 @@ textarea {
           transform: translateY(-100%);
 }
 
+#featured-gifts li .wrapper.radio:hover,
 #featured-gifts input[type=radio]:hover ~ label:before {
   content: "\f058";
   color: #eee;
