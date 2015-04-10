@@ -408,10 +408,23 @@ li.other span {
 #payment-options .payment-option:hover {
   background-color: #f9f9f9;
 }
-#payment-options .payment-option:active,
-#payment-options .payment-option input[type=radio] {
-  background-color: #128cf4;
-  color: #fff;
+
+#payment-options .payment-option input[type=radio] ~ span:before {
+  cursor: pointer;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f1db";
+  letter-spacing: 10px;
+  font-size: 1.4em;
+  color: #ccc;
+  width: 1em;
+}
+
+#payment-options .payment-option input[type=radio]:checked ~ span:before {
+  content: "\f058";
+  font-size: 1.4em;
+  color: #128cf4;
+  letter-spacing: 5px;
 }
 
 #payment-options .group {
