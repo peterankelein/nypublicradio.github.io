@@ -290,8 +290,6 @@ textarea {
   display: table-cell;
 }
 
-
-
 #featured-gifts li .wrapper.radio {
   background-color: #ccc;
   border-right: 2px solid #ccc;
@@ -473,7 +471,7 @@ li.other span {
     height: auto; /*height of top sprite section*/
 }
 
-#pay-check input[type=radio] ~ label:before {
+#pay-check input[type=radio] ~ span:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -484,7 +482,7 @@ li.other span {
   width: 1em;
 }
 
-#pay-check input[type=radio]:checked ~ label:before {
+#pay-check input[type=radio]:checked ~ span:before {
   content: "\f058";
   font-size: 1.4em;
   color: #128cf4;
