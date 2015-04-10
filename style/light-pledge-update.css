@@ -408,6 +408,9 @@ li.other span {
 #payment-options .payment-option:hover {
   background-color: #f9f9f9;
 }
+#payment-options .payment-option:active {
+  background-color: #128cf4;
+}
 
 #payment-options .group {
   margin-bottom: 5px; /*shorten default*/
