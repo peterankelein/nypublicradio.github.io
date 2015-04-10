@@ -307,6 +307,15 @@ textarea {
           transform: translateY(-100%);
 }
 
+#featured-gifts input[type=radio]:hover ~ label:before {
+  content: "\f058";
+  color: #eee;
+  background-color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
 #featured-gifts input[type=radio]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
