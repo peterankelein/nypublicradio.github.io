@@ -292,9 +292,9 @@ textarea {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
-  content: "\f1db";
+  content: "\f111";
   font-size: 1.6em;
-  color: #ccc;
+  color: #fff;
   width: 1em;
   position: relative;
   top: 50%;
