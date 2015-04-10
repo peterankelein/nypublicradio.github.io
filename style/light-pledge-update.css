@@ -287,11 +287,9 @@ textarea {
 #full-gift-list li {padding-bottom: 3px;}
 
 #full-gift-list li a {
-  display:block;
-  text-indent: -30px;/*this pulls the first line to the left*/
+  display: inline-block;
+  text-indent: -32px;/*this pulls the first line to the left*/
   padding-left:35px;/*this pushes the paragraph to the right*/
-  padding-right:5px;
-  text-align:justify;
 }
 
 
