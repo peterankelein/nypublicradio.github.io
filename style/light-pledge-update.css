@@ -287,6 +287,10 @@ textarea {
 #full-gift-list li {padding-bottom: 3px;}
 
 
+#featured-gifts li .wrapper.radio {
+  background-color: #ccc;
+  border-right: 2px solid #ccc;
+}
 
 #featured-gifts input[type=radio] ~ label:before {
   cursor: pointer;
