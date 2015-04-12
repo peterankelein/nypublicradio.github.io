@@ -386,6 +386,10 @@ li.other input.numeric {
   font-weight: normal;
 }
 
+li.other input.numeric:hover {
+  background-color: #f9f9f9;
+}
+
 li.other span {
   bottom: -25px;
   color: #000;
