@@ -266,7 +266,7 @@ textarea {
 #full-gift-list input[type=radio] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
-  display: inline;
+  display: table-cell;
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
