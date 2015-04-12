@@ -511,6 +511,7 @@ a, input.submit, .submit-paypal {
 #amount li label:hover,
 #amount li:last-child:hover, 
 #amount li:last-child label:hover,
+#amount li:last-child input:hover,
 #listening-now input[type="radio"]:checked+label  {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
