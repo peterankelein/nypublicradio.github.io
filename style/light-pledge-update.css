@@ -254,9 +254,6 @@ textarea {
 }
 
 
-
-
-
 #premiums > input[type=radio] ~ label:before,
 #full-gift-list input[type=radio] ~ label:before {
   cursor: pointer;
@@ -349,9 +346,12 @@ textarea {
 #amount li label:hover,
 #amount li:last-child:hover, 
 #amount li:last-child label:hover  {
-  background-color: transparent;
+  background-color: #f9f9f9;
   border-color: #ccc;
   color: #000;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;  
 }
 
 #amount li label {
