@@ -247,8 +247,11 @@ textarea {
   content: "\f058";
   font-size: 1.4em;
   color: #128cf4;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
 }
+
+
+
 
 .group.mini input[type=checkbox] ~ label:before
 {        
@@ -476,17 +479,6 @@ textarea#id_comments {
 
 .submit-section {
   text-align: center;
-}
-
-.submit-paypal {
-    display:none;
-    padding: 10px 0;
-    margin: 25px 0 25px 0px;
-}
-
-.submit-paypal .submit-paypal-prefix {
-    font-weight: normal;
-    font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
 input.submit {
