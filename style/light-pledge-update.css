@@ -489,7 +489,13 @@ input.submit:hover {
   border: 1px solid #016fcd;
 }
 
-#braintree-paypal-button {margin: 0 auto;}
+#braintree-paypal-button {
+  margin: 0 auto;
+}
+
+#braintree-paypal-button:hover {
+  background-color: #016fcd
+}
 
 .privacy {
     margin: 0 auto;
@@ -501,7 +507,7 @@ input.submit:hover {
 ANIMATIONS/TRANSITIONS
 ************************************************/
 
-a, input.submit, .submit-paypal {
+a, input.submit, #braintree-paypal-button {
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
