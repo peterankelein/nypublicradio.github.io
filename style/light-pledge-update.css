@@ -410,7 +410,6 @@ li.other span {
 
 #payment-options .payment-option input[type=radio]:checked ~ span:before {
   content: "\f058";
-  font-size: 1.4em;
   color: #128cf4;
   letter-spacing: 10px;
 }
@@ -435,7 +434,6 @@ li.other span {
 
 #pay-check input[type=radio]:checked ~ span:before {
   content: "\f058";
-  font-size: 1.4em;
   color: #128cf4;
   letter-spacing: 10px;
 }
