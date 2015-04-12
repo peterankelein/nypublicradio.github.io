@@ -345,7 +345,8 @@ textarea {
 #amount li:hover, 
 #amount li label:hover,
 #amount li:last-child:hover, 
-#amount li:last-child label:hover  {
+#amount li:last-child label:hover,
+#amount li:last-child input:hover {
   background-color: #f9f9f9;
   border-color: #ccc;
   color: #000;
@@ -384,10 +385,6 @@ li.other input.numeric {
   padding: 6px 4px 7px 10px;
   font-family:'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
-}
-
-li.other input.numeric:hover {
-  background-color: #f9f9f9;
 }
 
 li.other span {
