@@ -409,7 +409,7 @@ li.other span {
 
 #payment-options .payment-option input[type=radio]:hover ~ span:before {
   content: "\f058";
-  color: #f9f9f9;
+  color: #016fcd;
 }
 
 #payment-options .payment-option input[type=radio]:checked ~ span:before {
