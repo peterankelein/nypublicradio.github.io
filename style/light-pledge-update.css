@@ -346,7 +346,7 @@ textarea {
 #amount li label:hover,
 #amount li:last-child:hover, 
 #amount li:last-child label:hover,
-#amount li:last-child ~ input:hover {
+#amount li:last-child input:hover {
   background-color: #f9f9f9;
   border-color: #ccc;
   color: #000;
@@ -489,6 +489,8 @@ input.submit:hover {
   border: 1px solid #016fcd;
 }
 
+#braintree-paypal-button {margin: 0 auto;}
+
 .privacy {
     margin: 0 auto;
     max-width: 50%;
@@ -511,7 +513,7 @@ a, input.submit, .submit-paypal {
 #amount li label:hover,
 #amount li:last-child:hover, 
 #amount li:last-child label:hover,
-#amount li:last-child ~ input:hover ,
+#amount li:last-child input:hover,
 #listening-now input[type="radio"]:checked+label  {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
