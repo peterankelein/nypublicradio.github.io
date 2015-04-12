@@ -245,13 +245,9 @@ textarea {
 
 .group.mini input[type=checkbox]:checked ~ label:before {
   content: "\f058";
-  font-size: 1.4em;
   color: #128cf4;
   letter-spacing: 10px;
 }
-
-
-
 
 .group.mini input[type=checkbox] ~ label:before
 {        
@@ -262,6 +258,9 @@ textarea {
   content: "\f058";        
   color: #128cf4;
 }   
+
+
+
 
 #premiums > input[type=radio] ~ label:before,
 #full-gift-list input[type=radio] ~ label:before {
