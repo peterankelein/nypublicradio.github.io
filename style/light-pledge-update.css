@@ -286,8 +286,8 @@ textarea {
 }
 
 #full-gift-list li {
-  display: table;
-  padding-bottom: 3px;}
+  padding-bottom: 3px;
+}
 
 #full-gift-list li a {
   display: table-cell;
