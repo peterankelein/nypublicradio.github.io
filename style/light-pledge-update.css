@@ -261,7 +261,7 @@ textarea {
 #full-gift-list input[type=radio] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
-  display: inline-block;
+  display: table-cell;
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
@@ -285,7 +285,9 @@ textarea {
   width: 1.4em;
 }
 
-#full-gift-list li {padding-bottom: 3px;}
+#full-gift-list li {
+  display: table;
+  padding-bottom: 3px;}
 
 #full-gift-list li a {
   display: table-cell;
