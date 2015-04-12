@@ -266,7 +266,7 @@ textarea {
 #full-gift-list input[type=radio] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
-  display: table-cell;
+  display: inline-block;
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
@@ -277,7 +277,6 @@ textarea {
 #premiums > input[type=radio]:checked ~ label:before,
 #full-gift-list input[type=radio]:checked ~ label:before {
   content: "\f058";
-  font-size: 1.4em;
   color: #128cf4;
   letter-spacing: 10px;
 }
@@ -390,9 +389,6 @@ li.other span {
   color: #000;
 }
 
-
-
-
 #payment-options .payment-option:hover {
   background-color: #f9f9f9;
 }
@@ -414,9 +410,6 @@ li.other span {
   letter-spacing: 10px;
 }
 
-
-
-
 #pay-cc .card-number {
     height: auto; /*height of top sprite section*/
 }
@@ -437,7 +430,6 @@ li.other span {
   color: #128cf4;
   letter-spacing: 10px;
 }
-
 
 h4.listening {
   font-size: 1.1em;
