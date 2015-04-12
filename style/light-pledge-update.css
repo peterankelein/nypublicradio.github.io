@@ -407,10 +407,14 @@ li.other span {
   width: 1em;
 }
 
+#payment-options .payment-option input[type=radio]:hover ~ span:before {
+  content: "\f058";
+  color: #f9f9f9;
+}
+
 #payment-options .payment-option input[type=radio]:checked ~ span:before {
   content: "\f058";
   color: #128cf4;
-  letter-spacing: 10px;
 }
 
 #pay-cc .card-number {
@@ -493,10 +497,6 @@ input.submit:hover {
   margin: 0 auto;
 }
 
-#braintree-paypal-button:hover {
-  background-color: #016fcd
-}
-
 .privacy {
     margin: 0 auto;
     max-width: 50%;
@@ -507,7 +507,7 @@ input.submit:hover {
 ANIMATIONS/TRANSITIONS
 ************************************************/
 
-a, input.submit, #braintree-paypal-button {
+a, input.submit {
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
   -o-transition: all .25s ease-in-out;
