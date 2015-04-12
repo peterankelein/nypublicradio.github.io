@@ -432,10 +432,14 @@ li.other span {
   width: 1em;
 }
 
+#pay-check input[type=radio]:hover ~ span:before {
+  content: "\f058";
+  color: #016fcd;
+}
+
 #pay-check input[type=radio]:checked ~ span:before {
   content: "\f058";
   color: #128cf4;
-  letter-spacing: 10px;
 }
 
 h4.listening {
