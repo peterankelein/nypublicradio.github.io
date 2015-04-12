@@ -243,21 +243,16 @@ textarea {
   vertical-align: -2px;
 }
 
+.group.mini input[type=checkbox]:hover ~ label:before {
+  content: "\f058";
+  color: #016fcd;
+}
+
 .group.mini input[type=checkbox]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
-  letter-spacing: 10px;
 }
 
-.group.mini input[type=checkbox] ~ label:before
-{        
-  content: "\f1db";
-}
-.group.mini input[type=checkbox]:checked ~ label:before
-{
-  content: "\f058";        
-  color: #128cf4;
-}   
 
 
 
@@ -266,7 +261,7 @@ textarea {
 #full-gift-list input[type=radio] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
-  display: table-cell;
+  display: inline-block;
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
