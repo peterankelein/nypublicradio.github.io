@@ -470,13 +470,13 @@ li.other span {
 }
 
 #payment-options .payment-option input[type=radio]:hover ~ span:before,
-#payment-options .payment-option input[type=radio] ~ img:before {
+#payment-options .payment-option input[type=radio]:hover ~ img:before {
   content: "\f058";
   color: #016fcd;
 }
 
 #payment-options .payment-option input[type=radio]:checked ~ span:before,
-#payment-options .payment-option input[type=radio] ~ img:before {
+#payment-options .payment-option input[type=radio]:checked ~ img:before {
   content: "\f058";
   color: #128cf4;
 }
