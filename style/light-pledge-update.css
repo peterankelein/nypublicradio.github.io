@@ -124,7 +124,11 @@ h2.label .level-step {
 h3 {
   color: #000;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+
+.level_group h3 span {
+  color: #999;
 }
 
 form .field label {
