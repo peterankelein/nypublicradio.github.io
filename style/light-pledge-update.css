@@ -457,7 +457,8 @@ li.other span {
   background-color: #f9f9f9;
 }
 
-#payment-options .payment-option input[type=radio] ~ span:before {
+#payment-options .payment-option input[type=radio] ~ span:before,
+#payment-options .payment-option input[type=radio] ~ img:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -468,12 +469,14 @@ li.other span {
   width: 1.4em;
 }
 
-#payment-options .payment-option input[type=radio]:hover ~ span:before {
+#payment-options .payment-option input[type=radio]:hover ~ span:before,
+#payment-options .payment-option input[type=radio] ~ img:before {
   content: "\f058";
   color: #016fcd;
 }
 
-#payment-options .payment-option input[type=radio]:checked ~ span:before {
+#payment-options .payment-option input[type=radio]:checked ~ span:before,
+#payment-options .payment-option input[type=radio] ~ img:before {
   content: "\f058";
   color: #128cf4;
 }
