@@ -376,7 +376,9 @@ textarea {
   border-radius: 4px;  
 }
 
-#amount li:last-child:hover {background-color: transparent;}
+#amount li:last-child:hover, #amount li:last-child input[type="radio"]:hover+label {
+  background-color: transparent;
+}
 
 #amount li label {
   background-color: transparent;
