@@ -461,8 +461,7 @@ li.other span {
   display: none;
 }
 
-#payment-options .payment-option input[type=radio] ~ span:before,
-#payment-options .payment-option input[type=radio]:hover ~ img.payment-method-paypal-image:before {
+#payment-options .payment-option input[type=radio] ~ span:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
