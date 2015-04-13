@@ -301,7 +301,7 @@ textarea:hover {
 }
 
 #full-gift-list input[type=radio] ~ label:before {
-  display: table-cell;
+  display: inline-block;
 }
 
 #premiums > input[type=radio] ~ label:before {
