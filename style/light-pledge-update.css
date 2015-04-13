@@ -112,6 +112,10 @@ a:hover {
   padding: 5px 30px 20px;
 }
 
+#monthly h4 {
+  margin: 20px 0 40px
+}
+
 h1 {
   font-size: 1.3em;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
@@ -339,6 +343,9 @@ textarea:hover {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   line-height: 1.4em;
+}
+#featured-gifts {
+  margin: 30px 0 20px;
 }
 
 #featured-gifts li .wrapper.radio {
