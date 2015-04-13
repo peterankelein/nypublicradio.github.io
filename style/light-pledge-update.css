@@ -29,10 +29,18 @@ FONT IMPORTS
 GENERAL
 ************************************************/
 
+html { 
+  background: url(https://pledge3.wnyc.org/media/photologue/epledge/images/bkgrdImage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   font: 62.5% 'Gotham-Book', Arial, Helvetica, sans-serif;
-  background: url(https://pledge3.wnyc.org/media/photologue/epledge/images/bkgrdImage.jpg) no-repeat 0 -91px;
   color: #000;
+  background-color: #000;
 }
 
 
