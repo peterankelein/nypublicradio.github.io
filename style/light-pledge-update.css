@@ -457,8 +457,11 @@ li.other span {
   background-color: #f9f9f9;
 }
 
-#payment-options .payment-option input[type=radio] ~ span:before,
-#payment-options .payment-option input[type=radio] ~ img:before {
+#payment-options .payment-option img.payment-method-cc-image {
+  display: none;
+}
+
+#payment-options .payment-option input[type=radio] ~ span:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -469,14 +472,12 @@ li.other span {
   width: 1.4em;
 }
 
-#payment-options .payment-option input[type=radio]:hover ~ span:before,
-#payment-options .payment-option input[type=radio]:hover ~ img:before {
+#payment-options .payment-option input[type=radio]:hover ~ span:before {
   content: "\f058";
   color: #016fcd;
 }
 
-#payment-options .payment-option input[type=radio]:checked ~ span:before,
-#payment-options .payment-option input[type=radio]:checked ~ img:before {
+#payment-options .payment-option input[type=radio]:checked ~ span:before {
   content: "\f058";
   color: #128cf4;
 }
