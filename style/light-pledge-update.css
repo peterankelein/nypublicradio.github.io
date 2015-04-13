@@ -465,7 +465,7 @@ li.other span {
   letter-spacing: 10px;
   font-size: 1.4em;
   color: #999;
-  width: 1em;
+  width: 1.4em;
 }
 
 #payment-options .payment-option input[type=radio]:hover ~ span:before {
@@ -490,7 +490,7 @@ li.other span {
   letter-spacing: 10px;
   font-size: 1.4em;
   color: #999;
-  width: 1em;
+  width: 1.1em;
 }
 
 #pay-check input[type=radio]:hover ~ span:before {
@@ -586,6 +586,7 @@ a, input.submit {
 
 #amount li, 
 #amount li label,
+#payment-options.payment-option,
 #listening-now input[type="radio"]:checked+label  {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
