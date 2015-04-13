@@ -258,12 +258,19 @@ textarea {
 #full-gift-list input[type=radio] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
-  display: table-cell;
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
   color: #999;
   width: 1em;
+}
+
+#full-gift-list input[type=radio] ~ label:before {
+  display: table-cell;
+}
+
+#premiums > input[type=radio] ~ label:before {
+  display: inline-block;
 }
 
 #premiums > input[type=radio]:hover ~ label:before,
@@ -300,7 +307,7 @@ textarea {
   font-family: FontAwesome;
   display: inline-block;
   content: "\f111";
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: #fff;
   width: 1em;
   position: relative;
