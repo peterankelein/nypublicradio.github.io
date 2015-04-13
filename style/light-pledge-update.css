@@ -461,7 +461,8 @@ li.other span {
   display: none;
 }
 
-#payment-options .payment-option input[type=radio] ~ span:before {
+#payment-options .payment-option input[type=radio] ~ span:before,
+#payment-options .payment-option input[type=radio]:hover ~ img.payment-method-paypal-image:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -485,6 +486,16 @@ li.other span {
 #pay-cc .card-number {
     height: auto; /*height of top sprite section*/
 }
+
+
+
+
+
+
+
+
+
+
 
 #pay-check input[type=radio] ~ span:before {
   cursor: pointer;
