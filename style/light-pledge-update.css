@@ -31,6 +31,7 @@ GENERAL
 
 body {
   font: 62.5% 'Gotham-Book', Arial, Helvetica, sans-serif;
+  background: url(/media/photologue/epledge/images/bkgrdImage.jpg ) no-repeat 0 0;
   color: #000;
 }
 
