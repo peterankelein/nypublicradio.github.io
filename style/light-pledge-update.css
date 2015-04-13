@@ -299,6 +299,8 @@ textarea {
 
 #full-gift-list li a {
   display: table-cell;
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
 }
 
 #featured-gifts li .wrapper.radio {
