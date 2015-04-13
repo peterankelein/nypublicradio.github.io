@@ -548,8 +548,8 @@ a, input.submit {
   transition: all .25s ease-in-out;
 }
 
-#amount li:hover, 
-#amount li label:hover
+#amount li, 
+#amount li label,
 #listening-now input[type="radio"]:checked+label  {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
