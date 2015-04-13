@@ -151,6 +151,12 @@ h3 {
   font-size: 1.1em;
 }
 
+.level_group {
+  width: 42%;
+  float: left;
+  margin-right: 8%;
+}
+
 .level_group h3 span {
   color: #999;
 }
