@@ -91,20 +91,16 @@ a:hover {
   margin: -40px 25px 0 0;
 }
 
-#header, #monthly, #onetime, #premiums, .group.mini, .submit-section {
+#header, #monthly, #onetime, #premiums, .listening, #comments, .submit-section {
+  padding: 20px 30px 0 30px;
+}
+
+.group.mini {
   padding: 20px 30px 0 30px;
 }
 
 #listening-now{
-  padding: 20px 30px 0 30px;
-}
-
-.listening {
-  padding: 20px 30px 0 30px; 
-}
-
-#comments {
-  padding: 20px 30px 0 30px;
+  padding: 5px 30px 20px;
 }
 
 h1 {
