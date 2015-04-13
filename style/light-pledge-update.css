@@ -472,6 +472,10 @@ h4.listening {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
+#listening-now input[type="radio"]:hover+label {
+  background-color: #f9f9f9;
+}
+
 #listening-now input[type="radio"]:checked+label {
   background-color: #128cf4;
   border-color: #128cf4;
