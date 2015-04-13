@@ -329,7 +329,7 @@ textarea:hover {
 }
 
 #full-gift-list li a {
-  display: table-cell;
+  display: inline;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   line-height: 1.4em;
