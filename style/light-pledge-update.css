@@ -254,7 +254,7 @@ textarea:hover {
 #featured-gifts input[type=radio],
 #full-gift-list li input[type=radio],
 #amount input[type=radio],
-#payment_method_cc input[type=radio],
+.payment_option input[type=radio],
 #pay-check input[type=radio],
 #listening-now input[type=radio]
 {
