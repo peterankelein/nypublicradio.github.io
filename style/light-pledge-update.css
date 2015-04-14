@@ -83,10 +83,6 @@ a:hover {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
 
-.more:after  {
-  content: "\0BB";
-}
-
 #addl-person-btn {
   margin: -40px 25px 0 0;
 }
