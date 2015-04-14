@@ -526,6 +526,7 @@ li.other span {
   font-size: 1.4em;
   color: #999;
   width: 1.1em;
+  vertical-align: -2px;
 }
 
 #pay-check input[type="radio"]:hover ~ span:before {
