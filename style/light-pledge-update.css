@@ -174,7 +174,7 @@ form .field label {
 }
 
 input[type=text] {
-  padding: 6px;
+  padding: 6px 0 6px 15px;
   border: 1px solid #eee;
   background-color: #eee;
   -moz-border-radius: 0;
