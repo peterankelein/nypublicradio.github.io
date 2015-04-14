@@ -543,6 +543,11 @@ li.other span {
     content: "";
 }
 
+#pay-check h4 .more::after {
+    content: " ";
+}
+
+
 h4.listening {
   font-size: 1.1em;
 }
