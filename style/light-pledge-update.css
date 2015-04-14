@@ -112,7 +112,7 @@ a:hover {
   padding: 5px 30px 20px;
 }
 
-#monthly h4 {
+#monthly h4, #onetime h4 {
   margin: 20px 0 40px
 }
 
