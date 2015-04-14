@@ -396,6 +396,10 @@ textarea:hover {
   border-radius: 50%;
 }
 
+#featured-gifts input[type=radio]:checked:hover ~ label:before {
+  color: #016fcd;
+}
+
 #featured-gifts li .title {
   font-size: .94em;
 }
