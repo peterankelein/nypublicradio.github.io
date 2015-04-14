@@ -254,7 +254,6 @@ textarea:hover {
 #featured-gifts input[type=radio],
 #full-gift-list li input[type=radio],
 #amount input[type=radio],
-.payment_option input[type=radio],
 #payment-options input[type=radio],
 #pay-check input[type=radio],
 #listening-now input[type=radio]
@@ -278,7 +277,7 @@ textarea:hover {
   line-height: 1.4em
 }
     
-.group.mini input[type=checkbox] ~ label:before {
+.group.mini input[type="checkbox"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -290,16 +289,20 @@ textarea:hover {
   vertical-align: -2px;
 }
 
-.group.mini input[type=checkbox]:hover ~ label:before {
+.group.mini input[type="checkbox"]:hover ~ label:before {
   content: "\f058";
-  color: #016fcd;
+  color: #999;
 }
 
-.group.mini input[type=checkbox]:checked ~ label:before {
+.group.mini input[type="checkbox"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
 
+.group.mini input[type="checkbox"]:checked:hover ~ label:before {
+    color: #016fcd;
+    content: "\f058";
+}
 
 #premiums > input[type=radio] ~ label:before,
 #full-gift-list input[type=radio] ~ label:before {
@@ -323,7 +326,7 @@ textarea:hover {
 #premiums > input[type=radio]:hover ~ label:before,
 #full-gift-list input[type=radio]:hover ~ label:before {
   content: "\f058";
-  color: #016fcd;
+  color: #999;
 }
 
 #premiums > input[type=radio]:checked ~ label:before,
@@ -331,6 +334,15 @@ textarea:hover {
   content: "\f058";
   color: #128cf4;
 }
+
+#premiums > input[type=radio]:checked:hover ~ label:before,
+#full-gift-list input[type=radio]:checked:hover ~ label:before {
+  content: "\f058";
+  color: #016fcd;
+}
+
+
+
 
 #premiums > input[type=radio] ~ label:before {
   width: 1.4em;
@@ -453,33 +465,46 @@ li.other span {
   color: #000;
 }
 
+
+
+
+
 #payment-options .payment-option:hover {
   background-color: #f9f9f9;
+}
+
+#payment-options .payment-option img.payment-method-paypal-image {
+    margin-left: 0;
 }
 
 #payment-options .payment-option img.payment-method-cc-image {
   display: none;
 }
 
-#payment-options .payment-option input[type=radio] ~ span:before {
-  cursor: pointer;
-  font-family: FontAwesome;
-  display: inline-block;
-  content: "\f1db";
-  letter-spacing: 10px;
-  font-size: 1.4em;
+#payment-options .payment-option input[type="radio"] ~ span::before {
   color: #999;
+  content: "";
+  cursor: pointer;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1.4em;
+  letter-spacing: 10px;
   width: 1.4em;
 }
 
-#payment-options .payment-option input[type=radio]:hover ~ span:before {
+#payment-options .payment-option input[type="radio"]:hover ~ span:before  {
   content: "\f058";
-  color: #016fcd;
+  color: #999;
 }
 
-#payment-options .payment-option input[type=radio]:checked ~ span:before {
-  content: "\f058";
-  color: #128cf4;
+#payment-options .payment-option input[type="radio"]:checked ~ span::before {
+    color: #128cf4;
+    content: "";
+}
+
+#payment-options .payment-option input[type="radio"]:checked:hover ~ span::before {
+    color: #016fcd;
+    content: "";
 }
 
 #pay-cc .card-number {
@@ -487,16 +512,7 @@ li.other span {
 }
 
 
-
-
-
-
-
-
-
-
-
-#pay-check input[type=radio] ~ span:before {
+#pay-check input[type="radio"] ~ span:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -507,14 +523,19 @@ li.other span {
   width: 1.1em;
 }
 
-#pay-check input[type=radio]:hover ~ span:before {
+#pay-check input[type="radio"]:hover ~ span:before {
   content: "\f058";
-  color: #016fcd;
+  color: #999;
 }
 
-#pay-check input[type=radio]:checked ~ span:before {
+#pay-check input[type="radio"]:checked ~ span:before {
   content: "\f058";
   color: #128cf4;
+}
+
+#pay-check input[type="radio"]:checked:hover ~ span::before {
+    color: #016fcd;
+    content: "";
 }
 
 h4.listening {
@@ -600,7 +621,7 @@ a, input.submit {
 
 #amount li, 
 #amount li label,
-#payment-options.payment-option,
+#payment-options .payment-option,
 #listening-now input[type="radio"]:checked+label  {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
