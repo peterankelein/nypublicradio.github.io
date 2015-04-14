@@ -313,6 +313,7 @@ textarea:hover {
   font-size: 1.4em;
   color: #999;
   width: 1em;
+  vertical-align: -2px;
 }
 
 #full-gift-list input[type=radio] ~ label:before {
