@@ -517,17 +517,13 @@ li.other span {
 
 #payment-options .payment-option img.payment-method-paypal-image {
     margin-left: 0;
-    margin-bottom: -6px;
+    margin-bottom: -4px;
 }
 
 #payment-options .payment-option img.payment-method-cc-image {
   display: none;
 }
 
-#payment-options .payment-option-span {
-  margin-bottom: -4px;
-  display: block;
-}
 #payment-options .payment-option input[type="radio"] ~ span::before {
   color: #ccc;
   content: "";
@@ -537,9 +533,6 @@ li.other span {
   font-size: 1.4em;
   letter-spacing: 10px;
   width: 1.4em;
-  height: 12px;
-  line-height: 10px;
-  vertical-align: middle;
 }
 
 #payment-options .payment-option input[type="radio"]:hover ~ span:before  {
