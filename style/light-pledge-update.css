@@ -151,6 +151,10 @@ h2.label .level-step {
   margin-right: 0;
 }
 
+h2.label:nth-of-type(2) {
+  background-color: red;
+}
+
 h3 {
   color: #000;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
