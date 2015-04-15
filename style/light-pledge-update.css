@@ -517,7 +517,7 @@ li.other span {
 
 #payment-options .payment-option img.payment-method-paypal-image {
     margin-left: 0;
-    margin-bottom: -4px;
+    margin-bottom: -6px;
 }
 
 #payment-options .payment-option img.payment-method-cc-image {
@@ -533,6 +533,9 @@ li.other span {
   font-size: 1.4em;
   letter-spacing: 10px;
   width: 1.4em;
+  height: 12px;
+  line-height: 10px;
+  vertical-align: middle;
 }
 
 #payment-options .payment-option input[type="radio"]:hover ~ span:before  {
