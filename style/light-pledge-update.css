@@ -429,6 +429,8 @@ form select {
 #featured-gifts li .level {
   bottom: 10px;
   font-size: .85em;
+  margin-left: 8px;
+  text-align: left;
 }
 
 /* form pg 1 */
