@@ -91,6 +91,7 @@ a:hover {
 
 .tooltip {
   vertical-align: -2px;
+  margin: 0;
 }
 
 #header, #monthly, #onetime, .listening, .submit-section {
