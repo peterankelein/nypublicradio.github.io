@@ -221,7 +221,7 @@ textarea:hover {
 
 .field.month select,
 .field.year select {
-  width: 176px;
+  width: 174px;
 }
 
 .field.state select,
@@ -244,19 +244,21 @@ textarea:hover {
   border: 1px solid #128cf4; 
 }
 
-
+form select {
+    margin: 5px 6px;
+}
 
 /* Hide all radio buttons/checkboxes 
   but keep them accessible*/
 
-.group.mini input[type=checkbox], 
-#premiums > input[type=radio],
-#featured-gifts input[type=radio],
-#full-gift-list li input[type=radio],
-#amount input[type=radio],
-#payment-options input[type=radio],
-#pay-check input[type=radio],
-#listening-now input[type=radio]
+.group.mini input[type="checkbox"], 
+#premiums > input[type="radio"],
+#featured-gifts input[type="radio"],
+#full-gift-list li input[type="radio"],
+#amount input[type="radio"],
+#payment-options input[type="radio"],
+#pay-check input[type="radio"],
+#listening-now input[type="radio"]
 {
   border: 0;
   clip: rect(0 0 0 0);
@@ -304,8 +306,8 @@ textarea:hover {
     content: "\f058";
 }
 
-#premiums > input[type=radio] ~ label:before,
-#full-gift-list input[type=radio] ~ label:before {
+#premiums > input[type="radio"] ~ label:before,
+#full-gift-list input[type="radio"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
   content: "\f1db";
@@ -316,7 +318,7 @@ textarea:hover {
   vertical-align: -2px;
 }
 
-#full-gift-list input[type=radio] ~ label:before {
+#full-gift-list input[type="radio"] ~ label:before {
   display: inline-block;
 }
 
@@ -324,31 +326,31 @@ textarea:hover {
   cursor: pointer;
 }
 
-#premiums > input[type=radio] ~ label:before {
+#premiums > input[type="radio"] ~ label:before {
   display: inline-block;
 }
 
-#premiums > input[type=radio]:hover ~ label:before,
-#full-gift-list input[type=radio]:hover ~ label:before {
+#premiums > input[type="radio"]:hover ~ label:before,
+#full-gift-list input[type="radio"]:hover ~ label:before {
   content: "\f058";
   color: #999;
 }
 
-#premiums > input[type=radio]:checked ~ label:before,
-#full-gift-list input[type=radio]:checked ~ label:before {
+#premiums > input[type="radio"]:checked ~ label:before,
+#full-gift-list input[type="radio"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
 
-#premiums > input[type=radio]:checked:hover ~ label:before,
-#full-gift-list input[type=radio]:checked:hover ~ label:before {
+#premiums > input[type="radio"]:checked:hover ~ label:before,
+#full-gift-list input[type="radio"]:checked:hover ~ label:before {
   color: #016fcd;
 }
 
 
 
 
-#premiums > input[type=radio] ~ label:before {
+#premiums > input[type="radio"] ~ label:before {
   width: 1.4em;
 }
 
@@ -372,7 +374,7 @@ textarea:hover {
   border-right: 2px solid #ccc;
 }
 
-#featured-gifts input[type=radio] ~ label:before {
+#featured-gifts input[type="radio"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
@@ -387,12 +389,12 @@ textarea:hover {
           transform: translateY(-100%);
 }
 
-#featured-gifts input[type=radio]:hover ~ label:before {
+#featured-gifts input[type="radio"]:hover ~ label:before {
   content: "\f058";
   color: #eee;
 }
 
-#featured-gifts input[type=radio]:checked ~ label:before {
+#featured-gifts input[type="radio"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
   background-color: #fff;
@@ -401,7 +403,7 @@ textarea:hover {
   border-radius: 50%;
 }
 
-#featured-gifts input[type=radio]:checked:hover ~ label:before {
+#featured-gifts input[type="radio"]:checked:hover ~ label:before {
   color: #016fcd;
 }
 
