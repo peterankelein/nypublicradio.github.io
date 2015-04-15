@@ -476,6 +476,11 @@ li.other span {
   color: #000;
 }
 
+#payment-options label.field-label,
+#contact-info label {
+  width: 150px;
+}
+
 #payment-options .payment-option {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -520,6 +525,10 @@ li.other span {
 #payment-options .payment-option input[type="radio"]:checked:hover ~ span::before {
     color: #016fcd;
     content: "";
+}
+
+#pay-cc .field label { /* cc input labels */
+  width: 140px;
 }
 
 #pay-cc .card-number {
