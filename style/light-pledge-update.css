@@ -182,7 +182,7 @@ input[type=text] {
   border-radius: 0;
   margin: 6px;
   height: 38px;
-  width: 350px;
+  width: 380px;
   font-size: 1em;
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
 }
@@ -226,7 +226,7 @@ textarea:hover {
 
 .field.state select,
 .field.country select {
-  width: 369px;
+  width: 397px;
 }
 
 .field.month select:hover,
@@ -529,6 +529,10 @@ li.other span {
 
 #pay-cc .field label { /* cc input labels */
   width: 140px;
+}
+
+#pay-cc h4, #pay-check {
+  margin: 20px 0 20px 159px;
 }
 
 #pay-cc .card-number {
