@@ -151,7 +151,7 @@ h2.label .level-step {
   margin-right: 0;
 }
 
-h2.label:nth-of-type(2) {
+h2.label:nth-of-type(1) {
   background-color: red;
 }
 
