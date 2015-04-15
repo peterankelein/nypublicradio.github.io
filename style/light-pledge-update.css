@@ -419,6 +419,8 @@ form select {
 }
 
 #featured-gifts li .title {
+  height: 49px;
+  overflow: hidden;
   font-size: .94em;
   text-align: left;
   margin: 0 12px 12px 12px;
