@@ -481,6 +481,7 @@ li.other span {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   padding: 0;
+  margin-left: 5px;
 }
 
 #payment-options .payment-option:hover {
