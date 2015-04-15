@@ -493,7 +493,7 @@ li.other span {
   vertical-align: middle;
 }
 
-#payment-options {
+#payment-options .field .payment-options {
   margin-top: 20px;
 }
 
