@@ -151,8 +151,8 @@ h2.label .level-step {
   margin-right: 0;
 }
 
-h2.label:nth-of-type(1) {
-  background-color: red;
+#payment h2.label {
+  margin-top: 40px;
 }
 
 h3 {
