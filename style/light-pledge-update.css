@@ -420,6 +420,8 @@ form select {
 
 #featured-gifts li .title {
   font-size: .94em;
+  text-align: left;
+  margin: 0 12px 12px 12px;
 }
 
 #featured-gifts li .level {
