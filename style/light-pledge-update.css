@@ -536,6 +536,7 @@ li.other span {
 
 #pay-cc .field label { /* cc input labels */
   width: 140px;
+  vertical-align: middle;
 }
 
 #pay-cc h4, #pay-check {
@@ -652,6 +653,10 @@ input.submit:hover {
     margin: 0 auto;
     max-width: 50%;
     padding-bottom: 30px;
+}
+
+.errorlist, .required {
+  vertical-align: middle;
 }
 
 /***********************************************
