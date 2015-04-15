@@ -481,6 +481,7 @@ li.other span {
 #payment-options label.field-label,
 #contact-info label {
   width: 150px;
+  vertical-align: middle;
 }
 
 #payment-options .payment-option {
@@ -534,7 +535,7 @@ li.other span {
 }
 
 #pay-cc h4, #pay-check {
-  margin: 20px 0 20px 159px;
+  margin: 22px 0 25px 159px;
 }
 
 #pay-cc .card-number {
