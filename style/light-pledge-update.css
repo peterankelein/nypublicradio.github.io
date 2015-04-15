@@ -29,8 +29,6 @@ FONT IMPORTS
 GENERAL
 ************************************************/
 
-
-
 body {
   font: 62.5% 'Gotham-Book', Arial, Helvetica, sans-serif;
   color: #000;
@@ -57,6 +55,10 @@ i, em {
   padding-bottom: 20px;
   padding-top: 5px;
   text-align: center;
+}
+
+.header-description {
+  line-height: 21px;
 }
 
 #main {
@@ -286,14 +288,14 @@ form select {
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
-  color: #999;
+  color: #ccc;
   width: 1.1em;
   vertical-align: -2px;
 }
 
 .group.mini input[type="checkbox"]:hover ~ label:before {
   content: "\f058";
-  color: #999;
+  color: #ccc;
 }
 
 .group.mini input[type="checkbox"]:checked ~ label:before {
@@ -313,7 +315,7 @@ form select {
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
-  color: #999;
+  color: #ccc;
   width: 1em;
   vertical-align: -2px;
 }
@@ -333,7 +335,7 @@ form select {
 #premiums > input[type="radio"]:hover ~ label:before,
 #full-gift-list input[type="radio"]:hover ~ label:before {
   content: "\f058";
-  color: #999;
+  color: #ccc;
 }
 
 #premiums > input[type="radio"]:checked ~ label:before,
@@ -502,7 +504,7 @@ li.other span {
 }
 
 #payment-options .payment-option input[type="radio"] ~ span::before {
-  color: #999;
+  color: #ccc;
   content: "";
   cursor: pointer;
   display: inline-block;
@@ -514,7 +516,7 @@ li.other span {
 
 #payment-options .payment-option input[type="radio"]:hover ~ span:before  {
   content: "\f058";
-  color: #999;
+  color: #ccc;
 }
 
 #payment-options .payment-option input[type="radio"]:checked ~ span::before {
@@ -547,14 +549,14 @@ li.other span {
   content: "\f1db";
   letter-spacing: 10px;
   font-size: 1.4em;
-  color: #999;
+  color: #ccc;
   width: 1.1em;
   vertical-align: -2px;
 }
 
 #pay-check input[type="radio"]:hover ~ span:before {
   content: "\f058";
-  color: #999;
+  color: #ccc;
 }
 
 #pay-check input[type="radio"]:checked ~ span:before {
@@ -565,6 +567,12 @@ li.other span {
 #pay-check input[type="radio"]:checked:hover ~ span::before {
     color: #016fcd;
     content: "";
+}
+
+#pay-check h4 {
+  color: #000;
+  font-family:'Gotham-Book', Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 
 #pay-check h4 .more::after {
