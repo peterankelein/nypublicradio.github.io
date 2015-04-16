@@ -32,12 +32,10 @@ GENERAL
 body {
   font: 62.5% 'Gotham-Book', Arial, Helvetica, sans-serif;
   color: #000;
-  background: #000 url(https://pledge3.wnyc.org/media/photologue/epledge/images/bkgrdImage_1.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+background-image: url('https://pledge3.wnyc.org/media/photologue/epledge/images/bkgrdImage_1.jpg');
+    background-size: auto 1080px;
+    background-position: center top;
+    background-repeat: no-repeat;
 
 i, em {
   font-family: 'Gotham-Book-Italic', Arial, Helvetica, sans-serif 
@@ -723,8 +721,7 @@ input.submit:hover {
 ANIMATIONS/TRANSITIONS
 ************************************************/
 
-a, .hidden, 
-input.submit,
+a, input.submit,
 #amount li, 
 #amount li label,
 #payment-options .payment-option,
