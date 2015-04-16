@@ -36,7 +36,6 @@ body {
   background-size: auto 1920px;
 }
 
-
 i, em {
   font-family: 'Gotham-Book-Italic', Arial, Helvetica, sans-serif 
 }
@@ -721,7 +720,7 @@ input.submit:hover {
 ANIMATIONS/TRANSITIONS
 ************************************************/
 
-a, input.submit,
+a, input.submit, .toggle-two more,
 #amount li, 
 #amount li label,
 #payment-options .payment-option,
@@ -733,3 +732,5 @@ a, input.submit,
   -ms-transition: all .2s ease 0s;
   transition: all .2s ease 0s;
 }
+
+
