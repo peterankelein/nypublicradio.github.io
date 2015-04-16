@@ -185,7 +185,7 @@ form .field label {
   font-weight: normal;
 }
 .card-number input[type="text"] {
-  width: 225px;
+  width: 282px;
 }
 
 input[type=text] {
@@ -568,7 +568,7 @@ li.other span {
 #pay-cc .card-number {
     height: auto; /*height of top sprite section*/
     margin-left: -25px;
-    background: url("https://pledge3.wnyc.org/media/img/pledge/pledge-sprite.png?v2") no-repeat scroll 205px 0 transparent;
+    background: url("https://pledge3.wnyc.org/media/img/pledge/pledge-sprite.png?v2") no-repeat scroll 262px 0 transparent;
 }
 
 #pay-check input[type="radio"] ~ span:before {
