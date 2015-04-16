@@ -722,7 +722,7 @@ ANIMATIONS/TRANSITIONS
 ************************************************/
 
 a, input.submit,
-#monthly.hidden,
+#payment-options,
 #braintree-paypal-button,
 #amount li, 
 #amount li label,
@@ -736,7 +736,7 @@ a, input.submit,
   transition: all .2s ease 0s;
 }
 
-#monthly.hidden {
+#payment-options.hidden {
   transition: max-height .2s ease-out,
                 opacity .2s ease-in;}
 
