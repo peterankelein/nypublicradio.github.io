@@ -315,6 +315,8 @@ form select {
 .group.mini label[for="id_upsell"] {
    line-height: 1.6em;
 }
+
+
     
 .group.mini input[type="checkbox"] ~ label:before {
   cursor: pointer;
@@ -342,6 +344,42 @@ form select {
     color: #016fcd;
     content: "\f058";
 }
+
+
+.group.mini input[type=checkbox] ~ label:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f058";
+  letter-spacing: 10px;
+  font-size: 1.2em;
+  color: #999;
+  width: 1.4em;
+  transition: all 0.7s ease 0s;
+  position: absolute;
+  left: 0 ;
+  opacity: 0;
+}
+
+.group.mini input[type=checkbox]:hover ~ label:after {
+    content: "\f058";
+    font-size: 1.2em;
+    color: #999;
+    letter-spacing: 5px;
+    opacity: 1;
+}
+
+.group.mini input[type=checkbox]:checked ~ label:after {
+    content: "\f058";
+    font-size: 1.2em;
+    color: #128cf4;
+    letter-spacing: 5px;
+    opacity: 1;
+}
+
+.group.mini label {
+  position: relative;
+}
+
 
 #premiums > input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before {
