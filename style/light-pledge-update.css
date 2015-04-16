@@ -188,6 +188,11 @@ h3 {
   margin-bottom: 52px;
 }
 
+.level_group ul:last-child {
+  margin-bottom: 15px;
+}
+
+
 form .field label {
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
