@@ -94,6 +94,11 @@ a:hover {
   margin: 0;
 }
 
+.tooltip:last-child {
+  vertical-align: -4px;
+  margin: 0;
+}
+
 #header, #monthly, #onetime, .listening, .submit-section {
   padding: 20px 30px 0 30px;
 }
