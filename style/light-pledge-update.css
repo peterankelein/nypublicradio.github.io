@@ -453,8 +453,8 @@ form select {
 }
 
 /* form pg 1 */
-#amount h3 a:before {
-  content: ""
+#amount h4 a:before {
+  content: "Or";
 } 
 
 #amount li, #featured-gifts li {
