@@ -32,10 +32,11 @@ GENERAL
 body {
   font: 62.5% 'Gotham-Book', Arial, Helvetica, sans-serif;
   color: #000;
-background-image: url('https://pledge3.wnyc.org/media/photologue/epledge/images/bkgrdImage_1.jpg');
-    background-size: auto 1080px;
-    background-position: center top;
-    background-repeat: no-repeat;
+  background-image: url('https://pledge3.wnyc.org/media/photologue/epledge/images/bkgrdImage_1.jpg');
+  background-size: auto 1920px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #000;
 
 i, em {
   font-family: 'Gotham-Book-Italic', Arial, Helvetica, sans-serif 
