@@ -330,41 +330,20 @@ form select {
   vertical-align: -2px;
 }
 
-
-.group.mini input[type=checkbox] ~ label:after {
-  font-family: FontAwesome;
-  display: inline-block;
+.group.mini input[type="checkbox"]:hover ~ label:before {
   content: "\f058";
-  letter-spacing: 10px;
-  font-size: 1.4em;
-  color: #999;
-  width: 1.1em;
-  vertical-align: -2px;
-  position: absolute;
-  left: 0 ;
-  opacity: 0;
+  color: #ccc;
 }
 
-.group.mini input[type=checkbox]:hover ~ label:after {
+.group.mini input[type="checkbox"]:checked ~ label:before {
+  content: "\f058";
+  color: #128cf4;
+}
+
+.group.mini input[type="checkbox"]:checked:hover ~ label:before {
+    color: #016fcd;
     content: "\f058";
-    font-size: 1.2em;
-    color: #999;
-    letter-spacing: 5px;
-    opacity: 1;
 }
-
-.group.mini input[type=checkbox]:checked ~ label:after {
-    content: "\f058";
-    font-size: 1.2em;
-    color: #128cf4;
-    letter-spacing: 5px;
-    opacity: 1;
-}
-
-.group.mini label {
-  position: relative;
-}
-
 
 #premiums > input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before {
@@ -504,7 +483,7 @@ form select {
 
 #amount li label {
   background-color: transparent;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-left: 0; 
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -672,7 +651,7 @@ h4.listening {
   background-color: transparent;
   cursor: pointer;
   display: inline-block;
-  padding: 10px; 
+  padding: 10px 15px; 
   margin: 0;  
   position: relative;
   font-size: 1em;
@@ -739,8 +718,7 @@ input.submit,
 #amount li label,
 #payment-options .payment-option,
 #listening-now input[type="radio"]:checked+label,
-.group.mini input[type="checkbox"] ~ label:before,
-.group.mini input[type=checkbox] ~ label:after  {
+.group.mini input[type="checkbox"] ~ label:before  {
   -webkit-transition: all .2s ease 0s;
   -moz-transition: all .2s ease 0s;
   -o-transition: all .2s ease 0s;
