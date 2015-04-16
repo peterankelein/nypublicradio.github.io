@@ -714,9 +714,9 @@ a, input.submit {
 #payment-options .payment-option,
 #listening-now input[type="radio"]:checked+label,
 .group.mini input[type="checkbox"]:checked ~ label:before  {
-  -webkit-transition: all .15s linear;
-  -moz-transition: all .15s linear;
-  -o-transition: all .15s linear;
-  -ms-transition: all .15s linear;
-  transition: all .15s linear;
+  -webkit-transition: all .2s ease 0s;
+  -moz-transition: all .2s ease 0s;
+  -o-transition: all .2s ease 0s;
+  -ms-transition: all .2s ease 0s;
+  transition: all .2s ease 0s;
 }
