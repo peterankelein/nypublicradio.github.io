@@ -483,7 +483,7 @@ form select {
 
 #amount li label {
   background-color: transparent;
-  padding: 10px 15px;
+  padding: 10px 13px;
   border-left: 0; 
   font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -640,7 +640,7 @@ h4.listening {
 }
 
 #listening-now li {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 #listening-now label {
@@ -651,7 +651,7 @@ h4.listening {
   background-color: transparent;
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px; 
+  padding: 10px 13px; 
   margin: 0;  
   position: relative;
   font-size: 1em;
