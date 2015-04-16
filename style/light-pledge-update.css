@@ -703,6 +703,10 @@ input.submit:hover {
   margin: 0 auto;
 }
 
+#braintree-paypal-button:hover {
+  opacity: .6;
+}
+
 .privacy {
     margin: 0 auto;
     max-width: 50%;
@@ -718,6 +722,7 @@ ANIMATIONS/TRANSITIONS
 ************************************************/
 
 a, input.submit,
+#braintree-paypal-button,
 #amount li, 
 #amount li label,
 #payment-options .payment-option,
