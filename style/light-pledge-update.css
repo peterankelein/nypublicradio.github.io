@@ -306,6 +306,10 @@ form select {
   font-size: 1.1em;
   line-height: 1.4em
 }
+
+.group.mini label[for="id_upsell"] {
+   line-height: 1.6em;
+}
     
 .group.mini input[type="checkbox"] ~ label:before {
   cursor: pointer;
