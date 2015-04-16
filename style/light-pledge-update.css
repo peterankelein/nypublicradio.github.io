@@ -119,6 +119,10 @@ a:hover {
   margin: 0;
 }
 
+.morequestions h2.label {
+  margin-top: 0;
+}
+
 #listening-now{
   padding: 5px 30px 20px;
 }
@@ -612,6 +616,7 @@ li.other span {
     margin-left: -25px;
     margin-right: 25px;
 }
+
 
 h4.listening {
   font-size: 1.1em;
