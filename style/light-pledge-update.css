@@ -701,14 +701,8 @@ input.submit:hover {
 ANIMATIONS/TRANSITIONS
 ************************************************/
 
-a, input.submit {
-  -webkit-transition: all .2s ease 0s;
-  -moz-transition: all .2s ease 0s;
-  -o-transition: all .2s ease 0s;
-  -ms-transition: all .2s ease 0s;
-  transition: all .2s ease 0s;
-}
-
+a, 
+input.submit,
 #amount li, 
 #amount li label,
 #payment-options .payment-option,
