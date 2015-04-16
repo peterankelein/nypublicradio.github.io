@@ -453,7 +453,7 @@ form select {
 }
 
 /* form pg 1 */
-#amount h4 a:before {
+#amount h3 a:before {
   content: ""
 } 
 
