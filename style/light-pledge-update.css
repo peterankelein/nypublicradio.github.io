@@ -454,7 +454,7 @@ form select {
 
 /* form pg 1 */
 #amount h4 a:before {
-  content: ' '
+  content: ""
 } 
 
 #amount li, #featured-gifts li {
@@ -722,7 +722,6 @@ ANIMATIONS/TRANSITIONS
 ************************************************/
 
 a, input.submit,
-#payment-options,
 #braintree-paypal-button,
 #amount li, 
 #amount li label,
@@ -735,8 +734,3 @@ a, input.submit,
   -ms-transition: all .2s ease 0s;
   transition: all .2s ease 0s;
 }
-
-#payment-options.hidden {
-  transition: max-height .2s ease-out,
-                opacity .2s ease-in;}
-
