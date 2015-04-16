@@ -102,6 +102,10 @@ a:hover {
   margin: 0 30px;
 }
 
+#giveaways, #premiums {
+  padding-top: 11px;
+}
+
 #payment-methods {
   padding-top: 20px;
 }
