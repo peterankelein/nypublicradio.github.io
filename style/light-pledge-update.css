@@ -420,8 +420,8 @@ form select {
 }
 
 #featured-gifts input[type="radio"]:hover ~ label:before {
-  content: "\f1db";
-  color: #999;
+  content: "\f058";
+  color: #eee;
 }
 
 #featured-gifts input[type="radio"]:checked ~ label:before {
@@ -722,12 +722,14 @@ ANIMATIONS/TRANSITIONS
 ************************************************/
 
 a, input.submit,
-#braintree-paypal-button,
 #amount li, 
 #amount li label,
+#premiums > input[type="radio"] ~ label:before,
+#full-gift-list input[type="radio"] ~ label:before,
 #payment-options .payment-option,
 #listening-now input[type="radio"]:checked+label,
-.group.mini input[type="checkbox"] ~ label:before  {
+.group.mini input[type="checkbox"] ~ label:before,
+#braintree-paypal-button  {
   -webkit-transition: all .2s ease 0s;
   -moz-transition: all .2s ease 0s;
   -o-transition: all .2s ease 0s;
