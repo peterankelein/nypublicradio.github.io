@@ -350,7 +350,8 @@ form select {
 .group.mini label[for="id_upsell"] .tooltip {
    vertical-align: -4px;
 }
-    
+
+.special-offers-box input[type="checkbox"],    
 .group.mini input[type="checkbox"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
@@ -363,16 +364,19 @@ form select {
   vertical-align: -2px;
 }
 
+.special-offers-box input[type="checkbox"]:hover, 
 .group.mini input[type="checkbox"]:hover ~ label:before {
   content: "\f1db";
   color: #999;
 }
 
+.special-offers-box input[type="checkbox"]:checked, 
 .group.mini input[type="checkbox"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
 
+.special-offers-box input[type="checkbox"]:checked:hover, 
 .group.mini input[type="checkbox"]:checked:hover ~ label:before {
     color: #016fcd;
     content: "\f058";
