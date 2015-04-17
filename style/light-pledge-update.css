@@ -739,6 +739,7 @@ ANIMATIONS/TRANSITIONS
 a, input.submit,
 #amount li, 
 #amount li label,
+#giveaways input[type="checkbox"] ~ label:before,
 #premiums > input[type="radio"] ~ label:before,
 #featured-gifts input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before,
