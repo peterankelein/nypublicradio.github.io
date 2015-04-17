@@ -365,8 +365,8 @@ form select {
 
 #premiums > input[type="radio"]:hover ~ label:before,
 #full-gift-list input[type="radio"]:hover ~ label:before {
-  content: "\f058";
-  color: #ccc;
+  content: "\f1db";
+  color: #999;
 }
 
 #premiums > input[type="radio"]:checked ~ label:before,
@@ -420,8 +420,8 @@ form select {
 }
 
 #featured-gifts input[type="radio"]:hover ~ label:before {
-  content: "\f058";
-  color: #eee;
+  content: "\f1db";
+  color: #999;
 }
 
 #featured-gifts input[type="radio"]:checked ~ label:before {
