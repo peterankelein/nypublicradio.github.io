@@ -325,8 +325,8 @@ form select {
 }
 
 .group.mini input[type="checkbox"]:hover ~ label:before {
-  content: "\f058";
-  color: #ccc;
+  content: "\f1db";
+  color: #999;
 }
 
 .group.mini input[type="checkbox"]:checked ~ label:before {
