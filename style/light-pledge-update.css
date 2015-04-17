@@ -368,7 +368,7 @@ form select {
   display: inline-block;
 }
 
-#premiums label {
+#premiums label, #giveaways label {
   cursor: pointer;
 }
 
