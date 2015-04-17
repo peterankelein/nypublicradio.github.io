@@ -109,12 +109,11 @@ a:hover {
 .special-offers-box .thumb {
   float: left;
   margin: 4px 18px 20px 5px;
-  cursor: pointer;
 }
 
 .special-offers-box p {
-  font-size: 1.1em;
-  margin: 10px 0 0 0;
+  font-size: 1em;
+  margin: 6px 0 0 0;
   text-indent: 0;
 }
 
@@ -173,7 +172,7 @@ label > input:checked:hover + .special-offer-name:before {
   background-color: #eee;
   margin: 0 30px 40px;
   padding: 20px 40px 20px 13px;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.6em
 }
 
