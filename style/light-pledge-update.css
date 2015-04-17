@@ -275,7 +275,7 @@ form select {
 
 /* Hide all radio buttons/checkboxes 
   but keep them accessible*/
-
+.special-offers-box input[type="checkbox"],
 .group.mini input[type="checkbox"], 
 #premiums > input[type="radio"],
 #featured-gifts input[type="radio"],
