@@ -451,8 +451,13 @@ form select {
 }
 
 /* form pg 1 */
+<<<<<<< HEAD
 #amount h4 a:before {
   content: "Or ";
+=======
+#amount h3 a:before {
+  content: ""
+>>>>>>> parent of 9d73d0a... Version 1
 } 
 
 #amount li, #featured-gifts li {
