@@ -95,6 +95,10 @@ a:hover {
   padding: 20px 30px 0 30px;
 }
 
+#header {
+  margin-bottom: 25px;
+}
+
 .special-offers-box {
   background-color: #eee;
   border: none;
