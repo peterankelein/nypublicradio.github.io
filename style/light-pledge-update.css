@@ -105,8 +105,8 @@ a:hover {
 
 #giveaways > li {
   background-color: #eee;
-  margin: 30px;
-  padding: 30px;
+  margin: 0 30px 40px;
+  padding: 20px 40px 20px 13px;
   font-size: 1.1em;
   line-height: 1.6em
 }
@@ -137,7 +137,7 @@ a:hover {
 }
 
 #monthly h4, #onetime h4 {
-  margin: 21px 0 28px
+  margin: 21px 0 18px
 }
 
 h1 {
