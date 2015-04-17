@@ -798,6 +798,7 @@ ANIMATIONS/TRANSITIONS
 ************************************************/
 
 a, input.submit,
+label > input + .special-offer-name:before,
 #amount li, 
 #amount li label,
 #giveaways input[type="checkbox"] ~ label:before,
