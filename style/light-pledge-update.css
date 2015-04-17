@@ -287,15 +287,15 @@ form select {
 
 /* Hide all radio buttons/checkboxes 
   but keep them accessible*/
-
-.group.mini input[type="checkbox"], 
+#giveaways > input[type="checkbox"],
 #premiums > input[type="radio"],
 #featured-gifts input[type="radio"],
 #full-gift-list li input[type="radio"],
 #amount input[type="radio"],
 #payment-options input[type="radio"],
 #pay-check input[type="radio"],
-#listening-now input[type="radio"]
+#listening-now input[type="radio"],
+.group.mini input[type="checkbox"]
 {
   border: 0;
   clip: rect(0 0 0 0);
