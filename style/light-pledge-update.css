@@ -312,7 +312,7 @@ form select {
    vertical-align: -4px;
 }
 
-#special_offer input[type="checkbox"] ~ label:before,    
+.special-offers-box input[type="checkbox"] ~ label:before,    
 .group.mini input[type="checkbox"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
@@ -325,19 +325,19 @@ form select {
   vertical-align: -2px;
 }
 
-#special_offer input[type="checkbox"]:hover ~ label:before,   
+.special-offers-box input[type="checkbox"]:hover ~ label:before,   
 .group.mini input[type="checkbox"]:hover ~ label:before {
   content: "\f058";
   color: #ccc;
 }
 
-#special_offer input[type="checkbox"]:checked ~ label:before,   
+.special-offers-box input[type="checkbox"]:checked ~ label:before,   
 .group.mini input[type="checkbox"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
 
-#special_offer input[type="checkbox"]:checked:hover ~ label:before,   
+.special-offers-box input[type="checkbox"]:checked:hover ~ label:before,   
 .group.mini input[type="checkbox"]:checked:hover ~ label:before {
     color: #016fcd;
     content: "\f058";
