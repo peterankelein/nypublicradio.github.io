@@ -99,7 +99,17 @@ a:hover {
   margin: 0 30px;
 }
 
-#giveaways, #premiums {
+#giveaways {
+  border-top: none;
+}
+
+#giveaways > li {
+  background-color: #eee;
+  margin: 30px;
+  padding: 30px;
+}
+
+#premiums {
   padding-top: 11px;
 }
 
