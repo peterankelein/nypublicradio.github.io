@@ -117,6 +117,10 @@ a:hover {
   text-indent: 0;
 }
 
+.special-offers-box label[for="id_special_offer"] {
+   color: red;
+}
+
 #premiums {
   margin: 0 30px;
 }
