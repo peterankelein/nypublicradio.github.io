@@ -351,6 +351,7 @@ form select {
     content: "\f058";
 }
 
+#giveaways input[type="checkbox"] ~ label:before,
 #premiums > input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before {
   cursor: pointer;
@@ -374,19 +375,21 @@ form select {
 #premiums > input[type="radio"] ~ label:before {
   display: inline-block;
 }
-
+#giveaways input[type="checkbox"]:hover ~ label:before,
 #premiums > input[type="radio"]:hover ~ label:before,
 #full-gift-list input[type="radio"]:hover ~ label:before {
   content: "\f1db";
   color: #999;
 }
 
+#giveaways input[type="checkbox"]:checked ~ label:before,
 #premiums > input[type="radio"]:checked ~ label:before,
 #full-gift-list input[type="radio"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
 
+#giveaways input[type="checkbox"]:checked:hover ~ label:before,
 #premiums > input[type="radio"]:checked:hover ~ label:before,
 #full-gift-list input[type="radio"]:checked:hover ~ label:before {
   color: #016fcd;
