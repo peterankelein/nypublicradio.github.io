@@ -117,8 +117,8 @@ a:hover {
   text-indent: 0;
 }
 
-.special-offers-box label[for="id_special_offer"] {
-   color: red;
+.special-offer-name {
+  font-size: 1.6em;
 }
 
 #premiums {
