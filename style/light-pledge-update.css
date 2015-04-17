@@ -275,6 +275,7 @@ form select {
 
 /* Hide all radio buttons/checkboxes 
   but keep them accessible*/
+
 .group.mini input[type="checkbox"], 
 #premiums > input[type="radio"],
 #featured-gifts input[type="radio"],
@@ -310,7 +311,7 @@ form select {
 .group.mini label[for="id_upsell"] .tooltip {
    vertical-align: -4px;
 }
- 
+    
 .group.mini input[type="checkbox"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
@@ -322,22 +323,23 @@ form select {
   width: 1.1em;
   vertical-align: -2px;
 }
-  
+
 .group.mini input[type="checkbox"]:hover ~ label:before {
   content: "\f058";
   color: #ccc;
 }
- 
+
 .group.mini input[type="checkbox"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
-  
+
 .group.mini input[type="checkbox"]:checked:hover ~ label:before {
     color: #016fcd;
     content: "\f058";
 }
 
+#premiums > input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
@@ -451,13 +453,8 @@ form select {
 }
 
 /* form pg 1 */
-<<<<<<< HEAD
 #amount h4 a:before {
   content: "Or ";
-=======
-#amount h3 a:before {
-  content: ""
->>>>>>> parent of 9d73d0a... Version 1
 } 
 
 #amount li, #featured-gifts li {
