@@ -107,6 +107,8 @@ a:hover {
   background-color: #eee;
   margin: 30px;
   padding: 30px;
+  font-size: 1.1em;
+  line-height: 1.6em
 }
 
 #premiums {
