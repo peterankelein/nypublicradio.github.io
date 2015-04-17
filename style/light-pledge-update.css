@@ -275,7 +275,6 @@ form select {
 
 /* Hide all radio buttons/checkboxes 
   but keep them accessible*/
-#giveaways li input[type="checkbox"],
 .group.mini input[type="checkbox"], 
 #premiums > input[type="radio"],
 #featured-gifts input[type="radio"],
@@ -311,8 +310,7 @@ form select {
 .group.mini label[for="id_upsell"] .tooltip {
    vertical-align: -4px;
 }
-
-#giveaways li input[type="checkbox"],    
+ 
 .group.mini input[type="checkbox"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
@@ -324,26 +322,22 @@ form select {
   width: 1.1em;
   vertical-align: -2px;
 }
-
-#giveaways li input[type="checkbox"]:hover,   
+  
 .group.mini input[type="checkbox"]:hover ~ label:before {
   content: "\f058";
   color: #ccc;
 }
-
-#giveaways li input[type="checkbox"]:checked,   
+ 
 .group.mini input[type="checkbox"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
-
-#giveaways li input[type="checkbox"]:checked:hover,   
+  
 .group.mini input[type="checkbox"]:checked:hover ~ label:before {
     color: #016fcd;
     content: "\f058";
 }
 
-#premiums > input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
