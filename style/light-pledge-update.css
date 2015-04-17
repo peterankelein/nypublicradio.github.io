@@ -610,8 +610,8 @@ li.other span {
 }
 
 #pay-check input[type="radio"]:hover ~ span:before {
-  content: "\f058";
-  color: #ccc;
+  content: "\f1db";
+  color: #999;
 }
 
 #pay-check input[type="radio"]:checked ~ span:before {
@@ -725,8 +725,10 @@ a, input.submit,
 #amount li, 
 #amount li label,
 #premiums > input[type="radio"] ~ label:before,
+#featured-gifts input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before,
 #payment-options .payment-option,
+#pay-check input[type="radio"] ~ span:before,
 #listening-now input[type="radio"]:checked+label,
 .group.mini input[type="checkbox"] ~ label:before,
 #braintree-paypal-button  {
