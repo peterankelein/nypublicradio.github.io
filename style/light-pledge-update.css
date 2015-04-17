@@ -111,6 +111,10 @@ a:hover {
   margin: 4px 10px 20px 5px;
 }
 
+.special-offers-box p {
+    font-size: 1.1em;
+}
+
 #premiums {
   margin: 0 30px;
 }
