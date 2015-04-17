@@ -287,7 +287,7 @@ form select {
 
 /* Hide all radio buttons/checkboxes 
   but keep them accessible*/
-#giveaways > input[type="checkbox"],
+#giveaways li input[type="checkbox"],
 #premiums > input[type="radio"],
 #featured-gifts input[type="radio"],
 #full-gift-list li input[type="radio"],
