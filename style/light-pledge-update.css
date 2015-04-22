@@ -593,7 +593,8 @@ form select {
 li.other input.numeric {
   background-color: #fff;
   width: 115px;
-  padding: 0;
+  height: 100%;
+  padding: 6px 4px 7px 10px;
   font-family:'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
