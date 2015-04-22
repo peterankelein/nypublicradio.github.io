@@ -598,10 +598,6 @@ li.other input.numeric {
   font-weight: normal;
 }
 
-li.other div {
-  display: inline;
-}
-
 li.other span {
   bottom: -25px;
   color: #000;
