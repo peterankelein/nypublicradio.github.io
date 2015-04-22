@@ -49,8 +49,7 @@ i, em {
 #masthead {
   font-size: 1.4em;
   background:rgba(0,0,0,0);
-  padding-bottom: 27px;
-  padding-top: 18px;
+  padding: 18px 0 27px 0;
   text-align: center;
 }
 
