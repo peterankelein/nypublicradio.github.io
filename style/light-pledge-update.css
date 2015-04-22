@@ -599,7 +599,7 @@ li.other input.numeric {
 }
 
 li.other div {
-  display: inline-block;
+  display: inline;
 }
 
 li.other span {
