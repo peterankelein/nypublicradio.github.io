@@ -56,10 +56,11 @@ a:hover {
   color: #128cf4;
   font-size: 1em;
   font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 #addl-person-btn {
-  margin: -40px 25px 0 0;
+  margin: -40px 15px 0 0;
 }
 
 .tooltip {
