@@ -153,12 +153,6 @@ label > input:checked:hover + .special-offer-name:before {
     content: "\f058";
 }
 
-
-
-
-
-
-
 #premiums {
   margin: 0 30px;
 }
@@ -532,10 +526,7 @@ form select {
   text-align: left;
 }
 
-/* form pg 1 */
-#amount h4 a:before {
-  content: "Or ";
-} 
+/* form pg 1 */ 
 
 #amount li, #featured-gifts li {
   border: 1px solid #ccc; /* 2px solid #e9e9e9; */
