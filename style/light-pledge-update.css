@@ -177,12 +177,12 @@ label > input:checked:hover + .special-offer-name:before {
 
 h1 {
   font-size: 1.3em;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 h2 {
   font-size: 1.1em;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 h2.label {
@@ -195,7 +195,7 @@ h2.label {
   border-radius: 0;
   text-transform: none;
   font-size: 1em;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 h2.label .level-step {
@@ -214,7 +214,6 @@ h2.label .level-step {
 
 h3 {
   color: #000;
-  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-size: 1.1em;
 }
 
