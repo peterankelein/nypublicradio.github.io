@@ -16,10 +16,6 @@ body {
   background-size: auto 1920px;
 }
 
-i, em {
-  font-family: 'Gotham-Book-Italic', Arial, Helvetica, sans-serif 
-}
-
 .pledge-container {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -58,7 +54,7 @@ a:hover {
 .more {
   color: #128cf4;
   font-size: 1em;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
 }
 
 #addl-person-btn {
@@ -180,12 +176,12 @@ label > input:checked:hover + .special-offer-name:before {
 
 h1 {
   font-size: 1.3em;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
 }
 
 h2 {
   font-size: 1.1em;
-  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
 }
 
 h2.label {
@@ -217,7 +213,7 @@ h2.label .level-step {
 
 h3 {
   color: #000;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-size: 1.1em;
 }
 
@@ -241,7 +237,7 @@ h3 {
 
 
 form .field label {
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 .card-number input[type="text"] {
@@ -259,7 +255,7 @@ input[type=text] {
   height: 38px;
   width: 380px;
   font-size: 1em;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
 }
 
 input[type=text]:hover {
@@ -273,7 +269,7 @@ input[type=text]:focus {
 }
 
 textarea {
-  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   color: #000;
 }
@@ -290,7 +286,7 @@ textarea:hover {
   background-color: #fff;
   width: 400px;
   height: 35px;
-  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
 
@@ -444,7 +440,7 @@ form select {
 
 #full-gift-list li a {
   display: inline;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   line-height: 1.4em;
 }
@@ -541,7 +537,7 @@ form select {
   background-color: transparent;
   padding: 10px 13px;
   border-left: 0; 
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -565,7 +561,7 @@ li.other input.numeric {
   background-color: #fff;
   width: 115px;
   padding: 6px 4px 7px 10px;
-  font-family:'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family:'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -677,7 +673,7 @@ li.other span {
 
 #pay-check .pay-check-text {
   color: #000;
-  font-family:'Gotham-Book', Arial, Helvetica, sans-serif;
+  font-family:'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -711,7 +707,7 @@ h4.listening {
   margin: 0;  
   position: relative;
   font-size: 1em;
-  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
 }
 
 #listening-now input[type="radio"]:hover+label {
@@ -737,7 +733,7 @@ textarea#id_comments {
 input.submit {
   background-color: #128cf4;
   background-image: none;
-  font-family: 'Gotham-Book', Arial, Helvetica, sans-serif;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
   font-size: 1.1em;
   font-weight: normal;
   border-color: #128cf4;
