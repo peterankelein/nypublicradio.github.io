@@ -714,6 +714,7 @@ h4.listening {
   position: relative;
   font-size: 1em;
   font-family: 'Gotham SSm A', 'Gotham SSm B', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 #listening-now input[type="radio"]:hover+label {
