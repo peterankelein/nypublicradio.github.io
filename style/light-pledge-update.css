@@ -496,6 +496,14 @@ form select {
   color: #016fcd;
 }
 
+#featured-gifts li {
+  margin: 7px 12px 7px 0; 
+}
+
+#featured-gifts li a {
+  font-weight: 400;
+}
+
 #featured-gifts li .title {
   height: 65px;
   overflow: hidden;
@@ -522,10 +530,6 @@ form select {
 
 #amount li {
   margin: 7px 7px 7px 0; 
-}
-
-#featured-gifts li {
-  margin: 7px 12px 7px 0; 
 }
 
 #amount li:hover, 
