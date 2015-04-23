@@ -523,6 +523,9 @@ form select {
   text-align: left;
 }
 
+#featured-gifts li select:first-child {
+  top: 55px;
+}
 /* form pg 1 */ 
 
 #amount li, #featured-gifts li {
