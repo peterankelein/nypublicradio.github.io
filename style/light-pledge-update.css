@@ -351,6 +351,10 @@ form select {
   line-height: 1.4em
 }
 
+.group.mini > label {
+    font-weight: 300;
+}
+
 .group.mini label[for="id_upsell"] {
    line-height: 1.6em;
 }
