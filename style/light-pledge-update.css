@@ -109,7 +109,7 @@ label > input + .special-offer-name:before  {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
-  content: "\f1db";
+  content: "\f096";
   letter-spacing: 10px;
   font-size: 1.3em;
   color: #ccc;
@@ -117,20 +117,19 @@ label > input + .special-offer-name:before  {
   vertical-align: -1px;
 }
 
-
 label > input:hover + .special-offer-name:before {
-  content: "\f1db";
+  content: "\f096";
   color: #999;
 }
 
 label > input:checked + .special-offer-name:before {
-  content: "\f058";
+  content: "\f14a";
   color: #128cf4;
 }
 
 label > input:checked:hover + .special-offer-name:before {
     color: #016fcd;
-    content: "\f058";
+    content: "\f14a";
 }
 
 #premiums {
@@ -399,7 +398,6 @@ form select {
     content: "\f14a";
 }
 
-#giveaways input[type="checkbox"] ~ label:before,
 #premiums > input[type="radio"] ~ label:before,
 #full-gift-list input[type="radio"] ~ label:before {
   cursor: pointer;
@@ -415,6 +413,30 @@ form select {
 #full-gift-list input[type="radio"] ~ label:before {
   display: inline-block;
 }
+#giveaways input[type="checkbox"] ~ label:before {
+  cursor: pointer;
+  font-family: FontAwesome;
+  content: "\f096";
+  letter-spacing: 10px;
+  font-size: 1.4em;
+  color: #ccc;
+  width: 1em;
+  vertical-align: -2px;
+}
+
+#giveaways input[type="checkbox"]:hover ~ label:before {
+  content: "\f096";
+  color: #999;
+}
+
+#giveaways input[type="checkbox"]:checked ~ label:before {
+  content: "\f14a";
+  color: #128cf4;
+}
+
+#giveaways input[type="checkbox"]:checked:hover ~ label:before {
+  color: #016fcd;
+}
 
 #premiums label, #giveaways label {
   cursor: pointer;
@@ -423,21 +445,19 @@ form select {
 #premiums > input[type="radio"] ~ label:before {
   display: inline-block;
 }
-#giveaways input[type="checkbox"]:hover ~ label:before,
+
 #premiums > input[type="radio"]:hover ~ label:before,
 #full-gift-list input[type="radio"]:hover ~ label:before {
   content: "\f1db";
   color: #999;
 }
 
-#giveaways input[type="checkbox"]:checked ~ label:before,
 #premiums > input[type="radio"]:checked ~ label:before,
 #full-gift-list input[type="radio"]:checked ~ label:before {
   content: "\f058";
   color: #128cf4;
 }
 
-#giveaways input[type="checkbox"]:checked:hover ~ label:before,
 #premiums > input[type="radio"]:checked:hover ~ label:before,
 #full-gift-list input[type="radio"]:checked:hover ~ label:before {
   color: #016fcd;
