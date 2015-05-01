@@ -390,13 +390,13 @@ form select {
 }
 
 .group.mini input[type="checkbox"]:checked ~ label:before {
-  content: "\f046";
+  content: "\f14a";
   color: #128cf4;
 }
 
 .group.mini input[type="checkbox"]:checked:hover ~ label:before {
     color: #016fcd;
-    content: "\f046";
+    content: "\f14a";
 }
 
 #giveaways input[type="checkbox"] ~ label:before,
