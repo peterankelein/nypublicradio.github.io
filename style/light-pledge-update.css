@@ -376,7 +376,7 @@ form select {
   cursor: pointer;
   font-family: FontAwesome;
   display: inline-block;
-  content: "\f1db";
+  content: "\f096";
   letter-spacing: 10px;
   font-size: 1.4em;
   color: #ccc;
@@ -385,18 +385,18 @@ form select {
 }
 
 .group.mini input[type="checkbox"]:hover ~ label:before {
-  content: "\f1db";
+  content: "\f096";
   color: #999;
 }
 
 .group.mini input[type="checkbox"]:checked ~ label:before {
-  content: "\f058";
+  content: "\f046";
   color: #128cf4;
 }
 
 .group.mini input[type="checkbox"]:checked:hover ~ label:before {
     color: #016fcd;
-    content: "\f058";
+    content: "\f046";
 }
 
 #giveaways input[type="checkbox"] ~ label:before,
