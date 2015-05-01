@@ -416,12 +416,13 @@ form select {
 #giveaways input[type="checkbox"] ~ label:before {
   cursor: pointer;
   font-family: FontAwesome;
+  display: inline-block;
   content: "\f096";
   letter-spacing: 10px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #ccc;
-  width: 1em;
-  vertical-align: -2px;
+  width: 1.2em;
+  vertical-align: -1px;
 }
 
 #giveaways input[type="checkbox"]:hover ~ label:before {
@@ -438,7 +439,7 @@ form select {
   color: #016fcd;
 }
 
-#premiums label, #giveaways label {
+#premiums label {
   cursor: pointer;
 }
 
